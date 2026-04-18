@@ -36,6 +36,12 @@ export type {
 export { Banner } from './components/Banner';
 export type { BannerProps } from './components/Banner';
 
+export { BenefitsCardVertical } from './components/BenefitsCardVertical';
+export type {
+  BenefitsCardVerticalAction,
+  BenefitsCardVerticalProps,
+} from './components/BenefitsCardVertical';
+
 export { BenefitsContentCard } from './components/BenefitsContentCard';
 export type { BenefitsContentCardProps } from './components/BenefitsContentCard';
 
