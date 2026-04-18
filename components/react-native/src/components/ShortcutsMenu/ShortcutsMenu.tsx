@@ -265,9 +265,9 @@ const styles = StyleSheet.create({
   categoryLabel: {
     width: 72,
     fontFamily: 'BeVietnamPro_400Regular',
-    fontSize: 12,
+    fontSize: 10,
     fontWeight: '400',
-    lineHeight: 14,
+    lineHeight: 12,
     includeFontPadding: false,
   },
   categoryNumber: {
