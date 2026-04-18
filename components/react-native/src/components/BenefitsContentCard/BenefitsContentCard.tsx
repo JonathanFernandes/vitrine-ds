@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, ViewStyle } from 'react-native';
 import { useTheme } from '../../theme';
 import { Button } from '../Button';
+import { QrCodeNavIcon } from '../BottomMenu/icons';
 import { SvgAssetIcon } from '../SvgAssetIcon';
 
 const CARD_MAX_WIDTH = 343;
@@ -86,7 +87,7 @@ export function BenefitsContentCard({
         disabled={buttonDisabled}
         loading={buttonLoading}
         onPress={onPressSubmit}
-        iconLeft={<SvgAssetIcon name="qr-code-nav" width={16} height={16} />}
+        iconLeft={<QrCodeNavIcon size={16} />}
         accessibilityLabel={buttonLabel}
         testID={testID ? `${testID}-submit` : undefined}
       >
