@@ -1,0 +1,82 @@
+{
+  "component": {
+    "card": {
+      "bg": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do card padrão. Superfície branca/tema.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.default}"
+        },
+        "raised": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do card elevado. Combinar com Elevation/sm.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.raised}"
+        }
+      },
+      "border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do card padrão. Cinza 20.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.default}"
+        },
+        "subtle": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do card sutil. Cinza 10 para cards sem destaque.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.subtle}"
+        }
+      },
+      "padding": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Padding interno do card (16px).",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{spacing.padding.positive.sm}"
+      },
+      "radius": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Border radius do card (12px). Mais arredondado que botões.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{border.radius.md}"
+      },
+      "title": {
+        "color": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do título do card. Cinza 100.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.primary}"
+        }
+      }
+    }
+  }
+}

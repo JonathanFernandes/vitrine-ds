@@ -1,0 +1,72 @@
+{
+  "component": {
+    "steps": {
+      "active": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do passo ativo. Cor brand do tema.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.brand}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do passo ativo. Branco.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.inverse}"
+        }
+      },
+      "completed": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do passo concluído. Brand sutil.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.brand-subtle}"
+        },
+        "icon": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Ícone de check no passo concluído. Cor brand.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.brand}"
+        }
+      },
+      "inactive": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo dos passos não atingidos. Cinza 10.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto dos passos inativos. Cinza 50.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.tertiary}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "component": {
+    "bottom-sheet": {
+      "bg": {
+        "$collectionName": "Semantic Tokens",
+        "$description": "Fundo do bottom sheet.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.surface.default}"
+      },
+      "handle": {
+        "color": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor da alça de arrasto do bottom sheet. Cinza 20.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.default}"
+        }
+      },
+      "radius": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Border radius do topo do bottom sheet (24px).",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{border.radius.xl}"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "wave": "wave-4",
+  "scope": [
+    "progress-bar",
+    "card-store-item",
+    "event-card",
+    "fique-por-dentro-card",
+    "color.surface"
+  ],
+  "semanticTokensMaterialized": [
+    "color.surface.dark",
+    "color.surface.disabled",
+    "color.surface.image-tinted",
+    "color.surface.track"
+  ],
+  "componentTokensMaterialized": {
+    "progress-bar": 3,
+    "card-store-item": 7,
+    "event-card": 6,
+    "fique-por-dentro-card": 5
+  },
+  "promotedAliasesRemoved": [
+    "component.progress-bar.fill.primary",
+    "component.progress-bar.track.default"
+  ],
+  "outputFiles": [
+    "tokens/source/semantic/color.json",
+    "tokens/source/component/progress-bar.json",
+    "tokens/source/component/card-store-item.json",
+    "tokens/source/component/event-card.json",
+    "tokens/source/component/fique-por-dentro-card.json",
+    "tokens/source/metadata/design-doc-aliases.reviewed.json"
+  ]
+}

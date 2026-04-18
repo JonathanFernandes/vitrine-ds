@@ -1,0 +1,243 @@
+{
+  "spacing": {
+    "padding": {
+      "negative": {
+        "2xl": {
+          "$description": "-40px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -40
+        },
+        "2xs": {
+          "$description": "-8px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -8
+        },
+        "3xl": {
+          "$description": "-48px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -48
+        },
+        "3xs": {
+          "$description": "-4px. Uso: overlaps e offsets mínimos.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -4
+        },
+        "4xl": {
+          "$description": "-56px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -56
+        },
+        "5xl": {
+          "$description": "-64px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -64
+        },
+        "6xl": {
+          "$description": "-96px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -96
+        },
+        "lg": {
+          "$description": "-24px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -24
+        },
+        "md": {
+          "$description": "-20px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -20
+        },
+        "sm": {
+          "$description": "-16px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -16
+        },
+        "xl": {
+          "$description": "-32px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -32
+        },
+        "xs": {
+          "$codeSyntax": {
+            "WEB": "Color.Function.Primary.Light"
+          },
+          "$description": "-12px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": -12
+        }
+      },
+      "positive": {
+        "2xl": {
+          "$description": "40px. Uso: separação entre blocos.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 40
+        },
+        "2xs": {
+          "$description": "8px. Uso: padding interno de badges, chips.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 8
+        },
+        "3xl": {
+          "$description": "48px. Uso: padding de headers.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 48
+        },
+        "3xs": {
+          "$description": "4px. Espaço mínimo. Uso: gap entre ícone e label.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 4
+        },
+        "4xl": {
+          "$description": "56px.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 56
+        },
+        "5xl": {
+          "$description": "64px. Uso: seções hero.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 64
+        },
+        "6xl": {
+          "$description": "96px. Uso: seções de destaque máximo.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 96
+        },
+        "lg": {
+          "$description": "24px. Uso: padding de seções médias.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 24
+        },
+        "md": {
+          "$description": "20px. Uso: padding de inputs e botões.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 20
+        },
+        "none": {
+          "$description": "0px. Reset de espaçamento.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 0
+        },
+        "sm": {
+          "$description": "16px. Uso: padding padrão de cards e seções — valor mais usado.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 16
+        },
+        "xl": {
+          "$description": "32px. Uso: padding de seções grandes.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 32
+        },
+        "xs": {
+          "$codeSyntax": {
+            "ANDROID": "Spacing/Padding/Positive/xs",
+            "WEB": "Color.Function.Primary.Light",
+            "iOS": "Spacing/Padding/Positive/xs"
+          },
+          "$description": "12px. Uso: padding lateral de itens de lista.",
+          "$scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "$type": "float",
+          "$value": 12
+        }
+      }
+    }
+  }
+}

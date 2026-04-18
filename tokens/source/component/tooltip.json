@@ -1,0 +1,46 @@
+{
+  "component": {
+    "tooltip": {
+      "bg": {
+        "$collectionName": "Semantic Tokens",
+        "$description": "Fundo do tooltip. Cinza 100 (dark) para contraste máximo.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.text.primary}"
+      },
+      "label": {
+        "$collectionName": "Semantic Tokens",
+        "$description": "Texto do tooltip. Branco sobre fundo escuro.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.text.inverse}"
+      },
+      "padding": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Padding interno do tooltip (12px). Compacto.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{spacing.padding.positive.xs}"
+      },
+      "radius": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Border radius do tooltip (4px). Pequeno e discreto.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{border.radius.xs}"
+      }
+    }
+  }
+}

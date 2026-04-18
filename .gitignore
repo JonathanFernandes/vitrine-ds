@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+coverage/
+.turbo/
+
+# app and bundlers
+.expo/
+.expo-shared/
+web-build/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# env
+.env
+.env.*
+
+# editors
+.idea/
+.vscode/
+
+# misc
+*.tmp
+*.swp

@@ -1,0 +1,82 @@
+{
+  "component": {
+    "checkbox": {
+      "bg": {
+        "checked": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do checkbox marcado. Cor brand do tema.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.interactive.primary.default}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do checkbox desabilitado. Cinza 10.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        },
+        "unchecked": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do checkbox desmarcado. Superfície padrão.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.default}"
+        }
+      },
+      "border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do checkbox no estado desmarcado.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.default}"
+        },
+        "error": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do checkbox com erro de validação.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.error}"
+        },
+        "focus": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do checkbox em foco. Cor brand do tema.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.focus}"
+        }
+      },
+      "checkmark": {
+        "color": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do ícone de check dentro do checkbox marcado. Branco.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.inverse}"
+        }
+      }
+    }
+  }
+}

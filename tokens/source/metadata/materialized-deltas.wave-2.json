@@ -1,0 +1,47 @@
+{
+  "wave": "wave-2",
+  "scope": [
+    "input",
+    "link",
+    "color.text",
+    "color.border"
+  ],
+  "semanticTokensMaterialized": [
+    "color.border.active",
+    "color.border.danger-active",
+    "color.border.input",
+    "color.border.input-disabled",
+    "color.text.cancel",
+    "color.text.danger-pressed",
+    "color.text.default",
+    "color.text.helper",
+    "color.text.helper-disabled",
+    "color.text.hover",
+    "color.text.negative",
+    "color.text.negative-hover",
+    "color.text.placeholder-hover",
+    "color.text.prefix",
+    "color.text.prefix-disabled",
+    "color.text.pressed",
+    "color.text.value"
+  ],
+  "componentTokensMaterialized": {
+    "input": 29,
+    "link": 14
+  },
+  "promotedAliasesRemoved": [
+    "color.text.default",
+    "color.text.helper",
+    "color.text.helper-disabled",
+    "component.input.bg.view-only",
+    "component.input.border.hover",
+    "component.input.border.view-only",
+    "component.input.value.hover"
+  ],
+  "outputFiles": [
+    "tokens/source/semantic/color.json",
+    "tokens/source/component/input.json",
+    "tokens/source/component/link.json",
+    "tokens/source/metadata/design-doc-aliases.reviewed.json"
+  ]
+}

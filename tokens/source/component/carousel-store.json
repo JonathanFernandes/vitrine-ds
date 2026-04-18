@@ -1,0 +1,18 @@
+{
+  "component": {
+    "carousel-store": {
+      "gap": {
+        "default": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Espaçamento horizontal entre cards no CarouselStore.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "float",
+          "$value": "{spacing.padding.positive.2xs}"
+        }
+      }
+    }
+  }
+}

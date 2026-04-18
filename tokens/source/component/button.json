@@ -1,0 +1,604 @@
+{
+  "component": {
+    "button": {
+      "danger": {
+        "bg": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão destrutivo. Vermelho de erro para ações irreversíveis.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.danger.default}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão destrutivo no hover.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.danger.hover}"
+          },
+          "pressed": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão destrutivo pressionado.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.danger.pressed}"
+          }
+        },
+        "label": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label do botão destrutivo. Branco sobre vermelho.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.danger.text}"
+          }
+        }
+      },
+      "ghost": {
+        "bg": {
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão ghost no hover. Tint via ghost/hover/bg.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.ghost.hover.bg}"
+          }
+        },
+        "border": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Borda do botão ghost. Cinza 20 para delimitação sutil.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.ghost.border}"
+          }
+        },
+        "label": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label do botão ghost. Cor brand do tema sem background preenchido.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.ghost.text}"
+          }
+        }
+      },
+      "padding": {
+        "horizontal": {
+          "md": {
+            "$collectionName": "Primitive tokens",
+            "$description": "Padding horizontal padrão do botão médio (20px). Escale para SM=12px / LG=24px.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "float",
+            "$value": "{spacing.padding.positive.md}"
+          }
+        }
+      },
+      "primary": {
+        "bg": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão primário no estado padrão. Corresponde à cor brand do tema.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.primary.default}"
+          },
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão primário desabilitado. Cinza neutro para indicar inatividade.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.primary.disabled}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão primário no hover.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.primary.hover}"
+          },
+          "pressed": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão primário pressionado. Escurece para feedback visual.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.primary.pressed}"
+          }
+        },
+        "label": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label do botão primário ativo. Sempre branco (inversão de superfície).",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.primary.text}"
+          },
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label do botão primário desabilitado. Cinza para reforçar estado inativo.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.disabled}"
+          }
+        }
+      },
+      "primary-inverse": {
+        "bg": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo default do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.ghost.hover.bg}"
+          },
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo disabled do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.surface.disabled-strong}"
+          },
+          "focus": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo focus do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.primary.hover}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo hover do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.primary.hover}"
+          },
+          "loading": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo loading do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.ghost.hover.bg}"
+          },
+          "pressed": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo pressed do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.ghost.hover.bg}"
+          }
+        },
+        "border": {
+          "focus": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Borda focus do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.ghost.hover.bg}"
+          }
+        },
+        "label": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label default do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.primary}"
+          },
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label disabled do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.primary}"
+          },
+          "focus": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label focus do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label hover do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          },
+          "loading": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label loading do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.primary}"
+          },
+          "pressed": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label pressed do botao primary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.primary}"
+          }
+        }
+      },
+      "radius": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Border radius dos botões (4px). Alinhado ao contrato atual validado no Figma.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{border.radius.xs}"
+      },
+      "secondary": {
+        "bg": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão secundário no estado padrão. Cor brand secundária do tema.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.default}"
+          },
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo disabled do botao secondary.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.primary.disabled}"
+          },
+          "focus": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo focus do botao secondary.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.default}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão secundário no hover.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.hover}"
+          },
+          "loading": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo loading do botao secondary.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.default}"
+          },
+          "pressed": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do botão secundário pressionado.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.pressed}"
+          }
+        },
+        "border": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Borda default do botao secondary.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.default-invert}"
+          },
+          "focus": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Borda focus do botao secondary.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.border.focus}"
+          }
+        },
+        "label": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label do botão secundário. Sempre branco sobre cor brand secundária.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.text}"
+          },
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label disabled do botao secondary.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.disabled}"
+          },
+          "focus": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label focus do botao secondary.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label hover do botao secondary.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          },
+          "loading": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label loading do botao secondary.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          },
+          "pressed": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label pressed do botao secondary.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          }
+        }
+      },
+      "secondary-inverse": {
+        "bg": {
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo disabled do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.surface.disabled-strong}"
+          },
+          "focus": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo focus do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.default}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo hover do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.hover}"
+          },
+          "loading": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo loading do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.default}"
+          },
+          "pressed": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo pressed do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.secondary.pressed}"
+          }
+        },
+        "border": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Borda default do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          },
+          "focus": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Borda focus do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.interactive.ghost.hover.bg}"
+          }
+        },
+        "label": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label default do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          },
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label disabled do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.primary}"
+          },
+          "focus": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label focus do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label hover do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          },
+          "loading": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label loading do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.primary}"
+          },
+          "pressed": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label pressed do botao secondary inverse.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.primary}"
+          }
+        }
+      }
+    }
+  }
+}

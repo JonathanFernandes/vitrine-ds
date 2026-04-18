@@ -1,0 +1,60 @@
+{
+  "component": {
+    "radio": {
+      "border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do radio button. Cinza 20.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.default}"
+        },
+        "focus": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do radio em foco. Cor brand.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.focus}"
+        }
+      },
+      "dot": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Ponto do radio button desmarcado. Cinza 50.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.subtle}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Ponto do radio button desabilitado. Cinza 30.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.disabled}"
+        },
+        "selected": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Ponto do radio button selecionado. Cor brand do tema.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.interactive.primary.default}"
+        }
+      }
+    }
+  }
+}

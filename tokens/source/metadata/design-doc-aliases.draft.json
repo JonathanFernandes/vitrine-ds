@@ -1,0 +1,94 @@
+{
+  "color.interactive.secondary.default-invert": {
+    "aliasTo": "color.interactive.secondary.default",
+    "confidence": 0.75
+  },
+  "component.badge.error.fg": {
+    "aliasTo": "component.badge.error.bg",
+    "confidence": 0.75
+  },
+  "component.badge.success.fg": {
+    "aliasTo": "component.badge.success.bg",
+    "confidence": 0.75
+  },
+  "component.badge.warning.fg": {
+    "aliasTo": "component.badge.warning.bg",
+    "confidence": 0.75
+  },
+  "component.button.secondary.bg.disabled": {
+    "aliasTo": "component.button.secondary.bg.default",
+    "confidence": 0.8
+  },
+  "component.button.secondary.bg.focus": {
+    "aliasTo": "component.button.secondary.bg.default",
+    "confidence": 0.8
+  },
+  "component.button.secondary.bg.loading": {
+    "aliasTo": "component.button.secondary.bg.default",
+    "confidence": 0.8
+  },
+  "component.button.secondary.border.default": {
+    "aliasTo": "component.button.secondary.bg.default",
+    "confidence": 0.72
+  },
+  "component.button.secondary.label.disabled": {
+    "aliasTo": "component.button.secondary.label.default",
+    "confidence": 0.8
+  },
+  "component.button.secondary.label.focus": {
+    "aliasTo": "component.button.secondary.label.default",
+    "confidence": 0.8
+  },
+  "component.button.secondary.label.hover": {
+    "aliasTo": "component.button.secondary.label.default",
+    "confidence": 0.8
+  },
+  "component.button.secondary.label.loading": {
+    "aliasTo": "component.button.secondary.label.default",
+    "confidence": 0.8
+  },
+  "component.button.secondary.label.pressed": {
+    "aliasTo": "component.button.secondary.label.default",
+    "confidence": 0.8
+  },
+  "component.input.bg.view-only": {
+    "aliasTo": "component.input.bg.default",
+    "confidence": 0.75
+  },
+  "component.input.border.focus-width": {
+    "aliasTo": "component.input.border.default",
+    "confidence": 0.75
+  },
+  "component.input.border.hover": {
+    "aliasTo": "component.input.border.default",
+    "confidence": 0.75
+  },
+  "component.input.border.view-only": {
+    "aliasTo": "component.input.border.default",
+    "confidence": 0.75
+  },
+  "component.input.helper.disabled": {
+    "aliasTo": "component.input.helper.default",
+    "confidence": 0.75
+  },
+  "component.input.value.error": {
+    "aliasTo": "component.input.value.default",
+    "confidence": 0.75
+  },
+  "component.input.value.hover": {
+    "aliasTo": "component.input.value.default",
+    "confidence": 0.75
+  },
+  "component.progress-bar.fill.disabled": {
+    "aliasTo": "component.progress-bar.fill.brand",
+    "confidence": 0.75
+  },
+  "component.progress-bar.fill.primary": {
+    "aliasTo": "component.progress-bar.fill.brand",
+    "confidence": 0.75
+  },
+  "component.progress-bar.track.default": {
+    "aliasTo": "component.progress-bar.track.bg",
+    "confidence": 0.75
+  }
+}

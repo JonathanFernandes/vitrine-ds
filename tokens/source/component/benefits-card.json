@@ -1,0 +1,124 @@
+{
+  "component": {
+    "benefits-card": {
+      "action": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda, icone e label da acao ativa do benefits card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.interactive.secondary.default-invert}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Icone, label e logo em estado disabled no benefits card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.label-disabled}"
+        }
+      },
+      "action-bg": {
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo da acao disabled no benefits card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        }
+      },
+      "container-bg": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do container interno do benefits card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.default}"
+        }
+      },
+      "image-bg": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Placeholder de imagem do produto no benefits card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.placeholder}"
+        }
+      },
+      "lock-bg": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge de lock no benefits card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.overlay-strong}"
+        }
+      },
+      "logo-border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do logo da loja no benefits card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.default}"
+        }
+      },
+      "on-dark": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Dots do logo e icone de lock sobre fundo escuro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.on-dark}"
+        }
+      },
+      "secondary": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto e icones secundarios do benefits card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.secondary}"
+        }
+      },
+      "text": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto principal do benefits card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.strong}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "component": {
+    "badge": {
+      "blog": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge blog.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.brand-active}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge blog.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.dark}"
+        }
+      },
+      "brand": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge de destaque da marca. Cor brand principal do tema.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.brand}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do badge brand. Branco sobre cor brand.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.inverse}"
+        }
+      },
+      "danger": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge destrutivo (ações de perigo).",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.danger}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do badge destrutivo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.danger}"
+        }
+      },
+      "disabled": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge disabled.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge disabled.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.label-disabled}"
+        }
+      },
+      "error": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge de erro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.error}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge error.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.label-error}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do badge de erro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.error}"
+        }
+      },
+      "filter-active": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge filter active.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.interactive.primary.hover}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge filter active.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.on-dark}"
+        }
+      },
+      "filter-default": {
+        "border": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do badge filter default.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.hover}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge filter default.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.brand-strong}"
+        }
+      },
+      "info": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge info.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.info}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge info.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.info}"
+        }
+      },
+      "neutral": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge neutro. Cinza 10 para baixo impacto visual.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do badge neutro. Cinza 70.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.secondary}"
+        }
+      },
+      "neutral-1": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge neutral 1.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.neutral-muted}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge neutral 1.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.dark}"
+        }
+      },
+      "neutral-2": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge neutral 2.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.neutral-light}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge neutral 2.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.body}"
+        }
+      },
+      "neutral-3": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge neutral 3.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.placeholder}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge neutral 3.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.secondary}"
+        }
+      },
+      "premiere": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge premiere.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.premiere}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge premiere.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.on-premiere}"
+        }
+      },
+      "promo": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge promo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.promo}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge promo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.on-promo}"
+        }
+      },
+      "success": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge de sucesso/confirmação.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.success}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge success.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.success}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do badge de sucesso.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.success}"
+        }
+      },
+      "warning": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge de aviso.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.warning}"
+        },
+        "fg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Foreground do badge warning.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.warning}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do badge de aviso. ⚠️ Usa Warning/Action — nunca Warning/Default.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.warning}"
+        }
+      }
+    }
+  }
+}

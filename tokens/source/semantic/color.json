@@ -1,0 +1,1176 @@
+{
+  "color": {
+    "border": {
+      "accent-secondary": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda accent em contexto de marca secundaria.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.secondary.action}"
+      },
+      "active": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda ativa ou de foco para links e inputs.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.active}"
+      },
+      "brand-strong": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda de marca forte para estados ativos e shortcuts.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.action}"
+      },
+      "card": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda de cards e shortcuts.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.neutral.20}"
+      },
+      "danger-active": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda de foco em contexto destrutivo.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.active}"
+      },
+      "default": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda padrão de inputs e cards.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.20}"
+      },
+      "disabled": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Input ou botão desabilitado.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.20}"
+      },
+      "error": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Input com estado de erro.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.default}"
+      },
+      "focus": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Estado de foco — acessibilidade. Varia por tema.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.default}"
+      },
+      "hover": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda hover de elementos interativos.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.action}"
+      },
+      "image": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda de containers e placeholders de imagem.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "#f0f4f2"
+      },
+      "input": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda padrao de inputs.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.50}"
+      },
+      "input-disabled": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda de inputs em estado disabled.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.30}"
+      },
+      "light": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda clara sobre fundos escuros.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.light}"
+      },
+      "strong": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Borda com maior contraste.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.40}"
+      },
+      "subtle": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Divisores suaves.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.10}"
+      },
+      "success": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Input com estado de sucesso.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.success.default}"
+      }
+    },
+    "icon": {
+      "brand": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Ícones de ação da marca. Varia por tema.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.default}"
+      },
+      "brand-strong": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Icones de marca em variante forte.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.action}"
+      },
+      "brand-tint": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Icone com tint da marca para estados ativos em navegacao.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.neutral.70}"
+      },
+      "danger": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Ícones de ação destrutiva. Alias de Icon/Error.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.default}"
+      },
+      "dark": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Icones escuros para toolbar e cards.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.90}"
+      },
+      "default": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Ícones neutros.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.80}"
+      },
+      "secondary": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Ícones secundários em navegação e ações neutras.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.70}"
+      },
+      "disabled": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Ícones desabilitados.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.30}"
+      },
+      "error": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Ícones de estado de erro.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.default}"
+      },
+      "inverse": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Ícones sobre fundo escuro ou de marca.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.deep-light}"
+      },
+      "loyalty-star": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Estrelas e icones do programa de relacionamento.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.specific.yellow-star}"
+      },
+      "muted": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Icones suaves para metadados como calendario.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.60}"
+      },
+      "negative": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Icones sobre fundo escuro em estilo negativo.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.light}"
+      },
+      "on-brand": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Icones sobre superficies de marca.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.light}"
+      },
+      "on-surface": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Icones de alto contraste sobre superficies claras.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.deep-dark}"
+      },
+      "secondary": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Icones secundarios com a mesma intensidade de text.secondary.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.70}"
+      },
+      "subtle": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Ícones decorativos e secundários.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.50}"
+      },
+      "success": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Ícones de estado de sucesso.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.success.default}"
+      }
+    },
+    "indicator": {
+      "default": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Indicador ativo em carrosséis e paginação.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.action}"
+      },
+      "muted": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Indicador inativo em superfícies claras.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.30}"
+      },
+      "negative": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Indicador ativo em contexto negativo.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.active}"
+      },
+      "negative-muted": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Indicador inativo em contexto negativo.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.20}"
+      }
+    },
+    "interactive": {
+      "danger": {
+        "default": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Botão de ação destrutiva.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.feedback.error.default}"
+        },
+        "hover": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Botão destrutivo — hover. Escurece (usa error/action).",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.feedback.error.action}"
+        },
+        "pressed": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Botão destrutivo pressionado.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.feedback.error.action}"
+        },
+        "text": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Texto sobre botão destrutivo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.ambient.base.deep-light}"
+        }
+      },
+      "ghost": {
+        "border": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Borda de botão ghost.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.ambient.grayscales.20}"
+        },
+        "hover": {
+          "bg": {
+            "$collectionName": "Primitive tokens",
+            "$description": "Botão ghost — fundo no hover. Tint sutil via primary/light. Correto APENAS aqui.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.function.primary.light}"
+          }
+        },
+        "text": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Texto de botão ghost.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.function.primary.default}"
+        }
+      },
+      "primary": {
+        "default": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Botão primário normal. Varia por tema.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.function.primary.default}"
+        },
+        "disabled": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Botão primário desabilitado.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.ambient.grayscales.20}"
+        },
+        "hover": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Botão primário — hover. Escurece (usa primary/action). Nunca usar primary/light aqui.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.function.primary.action}"
+        },
+        "pressed": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Botão primário pressionado.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.function.primary.action}"
+        },
+        "text": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Texto sobre botão primário.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.ambient.base.deep-light}"
+        }
+      },
+      "secondary": {
+        "default": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Botão secundário normal. Varia por tema.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.function.secondary.default}"
+        },
+        "default-invert": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Borda e label do botao secundario em estado default.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.function.secondary.action}"
+        },
+        "hover": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Botão secundário — hover. Escurece (usa secondary/action).",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.function.secondary.action}"
+        },
+        "pressed": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Botão secundário pressionado.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.function.secondary.action}"
+        },
+        "text": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Texto sobre botão secundário.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.ambient.base.deep-light}"
+        }
+      }
+    },
+    "surface": {
+      "brand": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Superfície com cor da marca. Varia por tema.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.default}"
+      },
+      "brand-active": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Superficie de marca em estado ativo.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.active}"
+      },
+      "brand-strong": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Superficie de marca forte.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.action}"
+      },
+      "brand-subtle": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Versão suave da superfície de marca.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.light}"
+      },
+      "card": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo de cards e shortcuts.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.light}"
+      },
+      "danger": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo de banners destrutivos (delete, ação irreversível). Alias de Surface/Error.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.light}"
+      },
+      "danger-strong": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Superfície destrutiva de alto contraste para badges, dots e contadores.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.default}"
+      },
+      "dark": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo escuro para logos e containers internos.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.dark}"
+      },
+      "default": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo principal de telas.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.deep-light}"
+      },
+      "disabled": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Superficie disabled para barras e estados inativos.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.40}"
+      },
+      "disabled-strong": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo disabled mais forte para contextos inversos.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.60}"
+      },
+      "error": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo de banners de erro.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.light}"
+      },
+      "image-tinted": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Placeholder tintado de imagem.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.neutral-opacity.50}"
+      },
+      "info": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo de banners informativos.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.info.light}"
+      },
+      "neutral-light": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo neutro claro.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.neutral.20}"
+      },
+      "neutral-muted": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo neutro medio.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.neutral.40}"
+      },
+      "overlay": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Overlay de modais e bottom sheets.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales-opacity.40}"
+      },
+      "overlay-strong": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Overlay denso para badges de lock e estados disabled.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales-opacity.50}"
+      },
+      "placeholder": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Placeholder de imagem ou thumbnail.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.20}"
+      },
+      "premiere": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Superficie de estreia ou premiere.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.info.default}"
+      },
+      "promo": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Superficie promocional.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.warning.default}"
+      },
+      "raised": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Cards com elevação.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.deep-light}"
+      },
+      "subtle": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo de cards e seções sutis.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.10}"
+      },
+      "success": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo de banners de sucesso.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.success.light}"
+      },
+      "track": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo de trilhas de progress bar e slider.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.20}"
+      },
+      "warning": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Fundo de banners de aviso.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.warning.light}"
+      }
+    },
+    "text": {
+      "body": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto body e labels de itens.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.neutral.80}"
+      },
+      "brand": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Links e ações da marca. ⚠️ Neutral 4.47:1 / Leblon 3.24:1 — usar apenas em texto grande (18px+) ou ícones nestes temas. Red ✅ 6.2:1 · Green ✅ 5.3:1 — seguros para qualquer tamanho.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.default}"
+      },
+      "brand-strong": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Links e ações da marca — versão de alto contraste. WCAG: Neutral ✅ AAA · Leblon ✅ AAA · Red ✅ AAA · Green ✅ AAA. Preferir este para texto body em todos os temas.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.action}"
+      },
+      "cancel": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto de acao cancelar em formularios.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.action}"
+      },
+      "danger": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto de ação destrutiva. WCAG ✅. Alias de Text/Error (Error/Default).",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.default}"
+      },
+      "danger-pressed": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto destrutivo em estado pressed.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.dark}"
+      },
+      "dark": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto escuro sobre fundos neutros ou coloridos.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.dark}"
+      },
+      "default": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto default generico para nomes e labels.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.90}"
+      },
+      "disabled": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto desabilitado.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.30}"
+      },
+      "error": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Mensagens de erro.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.default}"
+      },
+      "helper": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto auxiliar abaixo de formularios.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.80}"
+      },
+      "helper-disabled": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto auxiliar em estado disabled.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.neutral.40}"
+      },
+      "hover": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto ou icone em estado hover.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.neutral.80}"
+      },
+      "info": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto informativo — aponta para Info/Action (#006699). WCAG ✅ 5.74:1 sobre branco. Seguro para qualquer tamanho de texto.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.info.action}"
+      },
+      "inverse": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto sobre fundo escuro ou cor da marca.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.deep-light}"
+      },
+      "label-disabled": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Label em estado disabled.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.40}"
+      },
+      "label-error": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Label em estado de erro.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.error.action}"
+      },
+      "negative": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto sobre fundo escuro em estilo negativo.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.light}"
+      },
+      "negative-hover": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto negativo em hover.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.light}"
+      },
+      "on-dark": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto sobre fundos escuros.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.light}"
+      },
+      "on-premiere": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto sobre fundo premiere.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.info.dark}"
+      },
+      "on-promo": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto sobre fundo promocional.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.warning.dark}"
+      },
+      "placeholder-hover": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Placeholder ou value em hover.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.action}"
+      },
+      "prefix": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Prefixo ou sufixo de inputs.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.50}"
+      },
+      "prefix-disabled": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Prefixo ou sufixo de inputs em disabled.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.30}"
+      },
+      "pressed": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto em estado pressed.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.function.primary.dark}"
+      },
+      "primary": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto principal e títulos.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.100}"
+      },
+      "secondary": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Subtítulos e labels.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.70}"
+      },
+      "strong": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto forte tematizado.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.neutral.90}"
+      },
+      "success": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto de sucesso — aponta para Success/Action (#1F7A1F). WCAG ✅ 7.2:1 (AAA) sobre branco. Seguro para qualquer tamanho de texto.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.success.action}"
+      },
+      "tertiary": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Placeholders, hints e texto auxiliar. ⚠️ Grayscales/50 — ratio 2.85:1. APENAS para texto não-essencial como placeholder e hint. NÃO usar para mensagens ou conteúdo de leitura.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.grayscales.50}"
+      },
+      "value": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto digitado ou preenchido pelo usuario.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.ambient.base.deep-dark}"
+      },
+      "warning": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Texto de aviso — aponta para Warning/Action (#916000). WCAG ✅ 5.74:1 sobre branco. Seguro para qualquer tamanho de texto.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.feedback.warning.action}"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "component": {
+    "section-title": {
+      "link": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Link e chevron do section title em fundo claro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.brand-strong}"
+        },
+        "negative": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Link e chevron do section title em fundo escuro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.negative}"
+        }
+      },
+      "title": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Titulo do section title em fundo claro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.body}"
+        },
+        "negative": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Titulo do section title em fundo escuro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.on-dark}"
+        }
+      }
+    }
+  }
+}

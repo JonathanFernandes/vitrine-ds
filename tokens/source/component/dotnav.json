@@ -1,0 +1,48 @@
+{
+  "component": {
+    "dotnav": {
+      "dot": {
+        "active": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Dot ativo do carrossel em fundo claro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.indicator.default}"
+        },
+        "active-negative": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Dot ativo do carrossel em fundo escuro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.indicator.negative}"
+        },
+        "inactive": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Dots inativos do carrossel em fundo claro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.indicator.muted}"
+        },
+        "inactive-negative": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Dots inativos do carrossel em fundo escuro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.indicator.negative-muted}"
+        }
+      }
+    }
+  }
+}

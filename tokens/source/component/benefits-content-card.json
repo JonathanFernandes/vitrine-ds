@@ -1,0 +1,78 @@
+{
+  "component": {
+    "benefits-content-card": {
+      "border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do container do benefits content card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.default}"
+        }
+      },
+      "icon": {
+        "outline": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Contornos e detalhes escuros do benefits content card.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.icon.dark}"
+          }
+        },
+        "star": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Estrelas do programa de relacionamento.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.icon.loyalty-star}"
+          }
+        }
+      },
+      "surface": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo externo do benefits content card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.card}"
+        },
+        "inner": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Mascaras e frames internos do benefits content card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.default}"
+        }
+      },
+      "text": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Titulo e descricao do benefits content card.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.body}"
+        }
+      }
+    }
+  }
+}

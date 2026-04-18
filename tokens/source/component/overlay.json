@@ -1,0 +1,18 @@
+{
+  "component": {
+    "overlay": {
+      "backdrop": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do backdrop. Cinza 40 com opacidade para escurecer o conteúdo atrás.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.overlay}"
+        }
+      }
+    }
+  }
+}

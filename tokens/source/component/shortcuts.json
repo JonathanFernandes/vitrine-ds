@@ -1,0 +1,66 @@
+{
+  "component": {
+    "shortcuts": {
+      "bg": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do atalho em superfície clara.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.card}"
+        }
+      },
+      "border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda padrão do atalho.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.card}"
+        }
+      },
+      "icon": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Ícone principal do atalho.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.brand-strong}"
+        }
+      },
+      "label": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do rótulo do atalho.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.strong}"
+        }
+      },
+      "more-border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do atalho de 'mais' no hub de atalhos.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.active}"
+        }
+      }
+    }
+  }
+}

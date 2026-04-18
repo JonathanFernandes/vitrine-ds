@@ -1,0 +1,57 @@
+{
+  "wave": "wave-1",
+  "scope": [
+    "button",
+    "badge",
+    "shortcuts-menu"
+  ],
+  "semanticTokensMaterialized": [
+    "color.border.brand-strong",
+    "color.border.card",
+    "color.border.hover",
+    "color.icon.brand-strong",
+    "color.icon.on-brand",
+    "color.icon.on-surface",
+    "color.icon.secondary",
+    "color.interactive.secondary.default-invert",
+    "color.surface.brand-active",
+    "color.surface.brand-strong",
+    "color.surface.card",
+    "color.surface.disabled-strong",
+    "color.surface.neutral-light",
+    "color.surface.neutral-muted",
+    "color.surface.placeholder",
+    "color.surface.premiere",
+    "color.surface.promo",
+    "color.text.body",
+    "color.text.dark",
+    "color.text.label-disabled",
+    "color.text.label-error",
+    "color.text.on-dark",
+    "color.text.on-premiere",
+    "color.text.on-promo",
+    "color.text.strong"
+  ],
+  "componentTokensMaterialized": {
+    "button": 36,
+    "badge": 23,
+    "shortcuts-menu": 17
+  },
+  "promotedAliasesRemoved": [
+    "color.icon.on-brand",
+    "color.text.body",
+    "color.text.label-disabled",
+    "color.text.label-error",
+    "color.text.on-dark",
+    "component.badge.error.fg",
+    "component.badge.success.fg",
+    "component.badge.warning.fg"
+  ],
+  "outputFiles": [
+    "tokens/source/semantic/color.json",
+    "tokens/source/component/button.json",
+    "tokens/source/component/badge.json",
+    "tokens/source/component/shortcuts-menu.json",
+    "tokens/source/metadata/design-doc-aliases.reviewed.json"
+  ]
+}

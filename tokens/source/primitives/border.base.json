@@ -1,0 +1,128 @@
+{
+  "border": {
+    "radius": {
+      "2xl": {
+        "$description": "32px. Uso: containers especiais.",
+        "$scopes": [
+          "CORNER_RADIUS"
+        ],
+        "$type": "float",
+        "$value": 32
+      },
+      "2xs": {
+        "$description": "Arredondamento mínimo. Valor varia por tema (1–2px).",
+        "$scopes": [
+          "CORNER_RADIUS"
+        ],
+        "$type": "float",
+        "$value": 1
+      },
+      "3xl": {
+        "$description": "48px. Uso: elementos circulares grandes.",
+        "$scopes": [
+          "CORNER_RADIUS"
+        ],
+        "$type": "float",
+        "$value": 48
+      },
+      "lg": {
+        "$description": "16px. Uso: bottom sheets, drawers.",
+        "$scopes": [
+          "CORNER_RADIUS"
+        ],
+        "$type": "float",
+        "$value": 16
+      },
+      "md": {
+        "$description": "12px. Uso: cards, containers — valor padrão mais usado.",
+        "$scopes": [
+          "CORNER_RADIUS"
+        ],
+        "$type": "float",
+        "$value": 12
+      },
+      "round": {
+        "$description": "999px. Uso: chips, avatars, botões pill.",
+        "$scopes": [
+          "CORNER_RADIUS"
+        ],
+        "$type": "float",
+        "$value": 999
+      },
+      "sharp": {
+        "$description": "Sem arredondamento. Uso: elementos angulares (raros no DS).",
+        "$scopes": [
+          "CORNER_RADIUS"
+        ],
+        "$type": "float",
+        "$value": 0
+      },
+      "sm": {
+        "$description": "8px. Uso: inputs, botões pequenos.",
+        "$scopes": [
+          "CORNER_RADIUS"
+        ],
+        "$type": "float",
+        "$value": 8
+      },
+      "xl": {
+        "$description": "24px. Uso: overlays grandes.",
+        "$scopes": [
+          "CORNER_RADIUS"
+        ],
+        "$type": "float",
+        "$value": 24
+      },
+      "xs": {
+        "$description": "Arredondamento pequeno. Valor varia por tema (2–4px).",
+        "$scopes": [
+          "CORNER_RADIUS"
+        ],
+        "$type": "float",
+        "$value": 4
+      }
+    },
+    "stroke": {
+      "stroke-hairline": {
+        "$description": "0.5px. Divisores sutis.",
+        "$scopes": [
+          "STROKE_FLOAT"
+        ],
+        "$type": "float",
+        "$value": 0.5
+      },
+      "stroke-medium": {
+        "$description": "2px. Estado de foco, ênfase.",
+        "$scopes": [
+          "STROKE_FLOAT"
+        ],
+        "$type": "float",
+        "$value": 2
+      },
+      "stroke-none": {
+        "$description": "0px. Sem borda.",
+        "$scopes": [
+          "STROKE_FLOAT"
+        ],
+        "$type": "float",
+        "$value": 0
+      },
+      "stroke-thick": {
+        "$description": "4px. Destaques especiais.",
+        "$scopes": [
+          "STROKE_FLOAT"
+        ],
+        "$type": "float",
+        "$value": 4
+      },
+      "stroke-thin": {
+        "$description": "1px. Bordas de inputs e cards — valor padrão.",
+        "$scopes": [
+          "STROKE_FLOAT"
+        ],
+        "$type": "float",
+        "$value": 1
+      }
+    }
+  }
+}

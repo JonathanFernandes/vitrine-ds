@@ -1,0 +1,30 @@
+{
+  "component": {
+    "spinner": {
+      "fill": {
+        "color": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Arco ativo do spinner. Cor brand do tema.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.brand}"
+        }
+      },
+      "track": {
+        "color": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Trilha do spinner (arco inativo). Cinza 10.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.subtle}"
+        }
+      }
+    }
+  }
+}

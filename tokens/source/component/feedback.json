@@ -1,0 +1,144 @@
+{
+  "component": {
+    "feedback": {
+      "error": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do alert de erro. Vermelho claro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.error}"
+        },
+        "icon": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Ícone do alert de erro. Vermelho.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.error}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do alert de erro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.error}"
+        }
+      },
+      "info": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do alert/banner informativo. Azul claro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.info}"
+        },
+        "icon": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Ícone do alert informativo. Usa icon default (cinza).",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.default}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do alert informativo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.info}"
+        }
+      },
+      "radius": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Border radius de alerts, banners e snackbars (8px).",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{border.radius.sm}"
+      },
+      "success": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do alert de sucesso. Verde claro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.success}"
+        },
+        "icon": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Ícone do alert de sucesso. Verde.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.success}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do alert de sucesso.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.success}"
+        }
+      },
+      "warning": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do alert de aviso. Amarelo claro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.warning}"
+        },
+        "icon": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Ícone do alert de aviso.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.default}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do alert de aviso. ⚠️ Usa Warning/Action — nunca Warning/Default.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.warning}"
+        }
+      }
+    }
+  }
+}

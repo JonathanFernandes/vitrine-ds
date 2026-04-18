@@ -1,0 +1,68 @@
+{
+  "z-index": {
+    "base": {
+      "$description": "Camada base (0). Uso: conteúdo estático padrão da página.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "float",
+      "$value": 0
+    },
+    "dropdown": {
+      "$description": "Camada de dropdown (100). Uso: menus de seleção, autocomplete, popovers.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "float",
+      "$value": 100
+    },
+    "modal": {
+      "$description": "Camada de modal (400). Uso: dialogs, bottom sheets, drawers laterais.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "float",
+      "$value": 400
+    },
+    "overlay": {
+      "$description": "Camada de overlay (300). Uso: backdrops semi-transparentes, dimmer de modal.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "float",
+      "$value": 300
+    },
+    "raised": {
+      "$description": "Camada elevada (10). Uso: cards interativos, itens arrastáveis.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "float",
+      "$value": 10
+    },
+    "sticky": {
+      "$description": "Camada sticky (200). Uso: headers fixos, tab bars, bottom navigation.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "float",
+      "$value": 200
+    },
+    "toast": {
+      "$description": "Camada de toast (500). Uso: snackbars, notificações in-app, banners de alerta.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "float",
+      "$value": 500
+    },
+    "tooltip": {
+      "$description": "Camada de tooltip (600). Uso: tooltips e coachmarks que devem aparecer sobre tudo.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "float",
+      "$value": 600
+    }
+  }
+}

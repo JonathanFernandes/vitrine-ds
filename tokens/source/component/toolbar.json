@@ -1,0 +1,62 @@
+{
+  "component": {
+    "toolbar": {
+      "chevron": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Chevron do link dentro do toolbar.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.brand-strong}"
+        }
+      },
+      "icon": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Seta de navegacao e icones de acao no toolbar default.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.dark}"
+        },
+        "negative": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Seta de navegacao no toolbar negative.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.negative}"
+        }
+      },
+      "label": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label do link no toolbar default.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.brand-strong}"
+        },
+        "negative": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label do link no toolbar negative.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.negative}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "component": {
+    "benefits-goals": {
+      "subtitle": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto descritivo do total e da meta.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.secondary}"
+        }
+      },
+      "title": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto principal do valor ou meta.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.strong}"
+        }
+      }
+    }
+  }
+}

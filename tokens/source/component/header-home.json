@@ -1,0 +1,142 @@
+{
+  "component": {
+    "header-home": {
+      "banner": {
+        "logged-out": {
+          "bg": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do banner de login/cadastro no header deslogado.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.ambient.neutral.80}"
+          },
+          "link": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Link do banner de login/cadastro.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          },
+          "text": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto do banner de login/cadastro.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.inverse}"
+          }
+        }
+      },
+      "content": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo base do conteúdo do header home.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        }
+      },
+      "highlight": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Destaque textual principal do header home.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.strong}"
+        }
+      },
+      "meta": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto auxiliar do header home.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.secondary}"
+        }
+      },
+      "spacing": {
+        "block-gap": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Espaçamento vertical entre blocos do header home.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "float",
+          "$value": "{spacing.padding.positive.md}"
+        },
+        "padding-inline": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Padding horizontal do header home.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "float",
+          "$value": "{spacing.padding.positive.sm}"
+        },
+        "padding-stack": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Padding vertical principal do header home.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "float",
+          "$value": "{spacing.padding.positive.lg}"
+        }
+      },
+      "summary": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do card de resumo de gastos/compras no header logado.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.card}"
+        },
+        "radius": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Raio do card de resumo do header home.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "float",
+          "$value": "{border.radius.xs}"
+        }
+      },
+      "title": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Título principal do header home.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.primary}"
+        }
+      }
+    }
+  }
+}

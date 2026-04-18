@@ -1,0 +1,13 @@
+{
+  "source": {
+    "reviewedAliases": "/Users/jonathanfernandes/Vitrine DS repo/tokens/source/metadata/design-doc-aliases.reviewed.json"
+  },
+  "generatedAtLayer": "tokens/source/compat",
+  "generatedFiles": [
+    "tokens/source/compat/color.json",
+    "tokens/source/compat/component.json"
+  ],
+  "aliasCount": 0,
+  "namespaces": {},
+  "unresolvedAliases": []
+}

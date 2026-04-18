@@ -1,0 +1,55 @@
+{
+  "compatibility": {
+    "aliasCount": 0,
+    "enabled": true,
+    "generatedFiles": [
+      "tokens/source/compat/color.json",
+      "tokens/source/compat/component.json"
+    ],
+    "source": "/Users/jonathanfernandes/Vitrine DS repo/tokens/source/metadata/design-doc-aliases.reviewed.json"
+  },
+  "foundations": [
+    "typography",
+    "elevation",
+    "motion",
+    "z-index"
+  ],
+  "layers": [
+    "primitives",
+    "semantic",
+    "component"
+  ],
+  "migrationSource": {
+    "designDate": "17/04/2026",
+    "designDoc": "/Users/jonathanfernandes/ds-react/design.md",
+    "designStatus": "Auditoria Figma↔doc concluída — 0 divergências (Link, Shortcuts, Section Title, Benefits Card, Benefits Content Card, Dotnav, Banner, Progress Bar, Benefits Goals, Card Store Item, Carousel Store, Toolbar, Badge, Movie Poster, Event Card, Shortcuts Menu, Fique por dentro Card, Camera, Notification Icon Group auditados)",
+    "designVersion": "2.7.3",
+    "repositoryPath": "/Users/jonathanfernandes/ds-react",
+    "tokensFile": "/Users/jonathanfernandes/ds-react/tokens-for-react.json"
+  },
+  "name": "vitrine-design-system",
+  "notes": [
+    "Primitive tokens foram separados em base neutral + overrides por tema.",
+    "Semantic Tokens e Component Tokens sao compartilhados entre os temas no export atual.",
+    "Typography varia por plataforma e foi mantida em arquivos dedicados.",
+    "Aliases revisados podem ser materializados em tokens/source/compat via build de compatibilidade."
+  ],
+  "sourceOfTruth": "tokens/source",
+  "summary": {
+    "compatibilityAliasTokens": 0,
+    "componentTokens": 120,
+    "elevationTokens": 6,
+    "motionTokens": 9,
+    "primitiveBaseTokens": 106,
+    "semanticTokens": 54,
+    "typographyTokens": 94,
+    "zIndexTokens": 8
+  },
+  "themes": [
+    "neutral",
+    "leblon",
+    "red",
+    "green"
+  ],
+  "version": "0.1.0"
+}

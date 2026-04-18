@@ -1,0 +1,390 @@
+{
+  "font": {
+    "family": {
+      "bodytext": {
+        "$description": "Família tipográfica para texto corrido — mais usada.",
+        "$scopes": [
+          "FONT_FAMILY"
+        ],
+        "$type": "string",
+        "$value": "Be Vietnam Pro"
+      },
+      "button": {
+        "$description": "Família tipográfica para labels de botão.",
+        "$scopes": [
+          "FONT_FAMILY"
+        ],
+        "$type": "string",
+        "$value": "Be Vietnam Pro"
+      },
+      "caption": {
+        "$description": "Família tipográfica para legendas e metadados.",
+        "$scopes": [
+          "FONT_FAMILY"
+        ],
+        "$type": "string",
+        "$value": "Be Vietnam Pro"
+      },
+      "display": {
+        "$description": "Família tipográfica para Display — títulos de destaque máximo.",
+        "$scopes": [
+          "FONT_FAMILY"
+        ],
+        "$type": "string",
+        "$value": "Be Vietnam Pro"
+      },
+      "heading": {
+        "$description": "Família tipográfica para Headings (H1–H3).",
+        "$scopes": [
+          "FONT_FAMILY"
+        ],
+        "$type": "string",
+        "$value": "Be Vietnam Pro"
+      },
+      "helper-text": {
+        "$description": "Família tipográfica para textos auxiliares e mensagens de validação.",
+        "$scopes": [
+          "FONT_FAMILY"
+        ],
+        "$type": "string",
+        "$value": "Be Vietnam Pro"
+      },
+      "input": {
+        "$description": "Família tipográfica para campos de input.",
+        "$scopes": [
+          "FONT_FAMILY"
+        ],
+        "$type": "string",
+        "$value": "Be Vietnam Pro"
+      },
+      "link": {
+        "$description": "Família tipográfica para links.",
+        "$scopes": [
+          "FONT_FAMILY"
+        ],
+        "$type": "string",
+        "$value": "Be Vietnam Pro"
+      },
+      "overline": {
+        "$description": "Família tipográfica para overlines e categorias.",
+        "$scopes": [
+          "FONT_FAMILY"
+        ],
+        "$type": "string",
+        "$value": "Be Vietnam Pro"
+      },
+      "subtitle": {
+        "$description": "Família tipográfica para Subtítulos.",
+        "$scopes": [
+          "FONT_FAMILY"
+        ],
+        "$type": "string",
+        "$value": "Be Vietnam Pro"
+      }
+    },
+    "letter-spacing": {
+      "normal": {
+        "$description": "Espaçamento entre letras normal (0px). Uso: corpo de texto, parágrafos padrão.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 0
+      },
+      "tight": {
+        "$description": "Espaçamento entre letras apertado (-0.5px). Uso: headings grandes, display text.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": -0.5
+      },
+      "wide": {
+        "$description": "Espaçamento entre letras amplo (0.5px). Uso: subtítulos, labels de campo.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 0.5
+      },
+      "wider": {
+        "$description": "Espaçamento entre letras mais amplo (1px). Uso: botões, captions, overlines.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 1
+      },
+      "widest": {
+        "$description": "Espaçamento entre letras máximo (2px). Uso: badges, chips, tags em caixa-alta.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 2
+      }
+    },
+    "line-height": {
+      "2xl": {
+        "$description": "36px. Par com font/size/2xl.",
+        "$scopes": [
+          "LINE_HEIGHT"
+        ],
+        "$type": "float",
+        "$value": 36
+      },
+      "3xl": {
+        "$description": "40px. Par com font/size/3xl.",
+        "$scopes": [
+          "LINE_HEIGHT"
+        ],
+        "$type": "float",
+        "$value": 40
+      },
+      "4xl": {
+        "$description": "48px. Par com font/size/4xl e 5xl.",
+        "$scopes": [
+          "LINE_HEIGHT"
+        ],
+        "$type": "float",
+        "$value": 48
+      },
+      "5xl": {
+        "$description": "56px. Par com font/size/6xl e superiores.",
+        "$scopes": [
+          "LINE_HEIGHT"
+        ],
+        "$type": "float",
+        "$value": 56
+      },
+      "lg": {
+        "$description": "24px. Par com font/size/lg.",
+        "$scopes": [
+          "LINE_HEIGHT"
+        ],
+        "$type": "float",
+        "$value": 24
+      },
+      "md": {
+        "$description": "20px. Par com font/size/md — line-height base.",
+        "$scopes": [
+          "LINE_HEIGHT"
+        ],
+        "$type": "float",
+        "$value": 20
+      },
+      "sm": {
+        "$description": "16px. Par com font/size/sm.",
+        "$scopes": [
+          "LINE_HEIGHT"
+        ],
+        "$type": "float",
+        "$value": 16
+      },
+      "xl": {
+        "$description": "32px. Par com font/size/xl.",
+        "$scopes": [
+          "LINE_HEIGHT"
+        ],
+        "$type": "float",
+        "$value": 32
+      },
+      "xs": {
+        "$description": "14px. Par com font/size/xs.",
+        "$scopes": [
+          "LINE_HEIGHT"
+        ],
+        "$type": "float",
+        "$value": 14
+      },
+      "xxs": {
+        "$description": "12px. Par com font/size/xxs.",
+        "$scopes": [
+          "LINE_HEIGHT"
+        ],
+        "$type": "float",
+        "$value": 12
+      }
+    },
+    "size": {
+      "2xl": {
+        "$description": "Desktop: 32px · Mobile: 20px. Uso: H2.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 20
+      },
+      "3xl": {
+        "$description": "Desktop: 36px · Mobile: 24px. Uso: H1.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 24
+      },
+      "4xl": {
+        "$description": "Desktop: 40px · Mobile: 28px. Uso: Display pequeno.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 28
+      },
+      "5xl": {
+        "$description": "Desktop: 44px · Mobile: 32px. Uso: Display médio.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 32
+      },
+      "6xl": {
+        "$description": "Desktop: 48px · Mobile: 36px. Uso: Display grande.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 36
+      },
+      "7xl": {
+        "$description": "Desktop: 60px · Mobile: 40px. Uso: Hero titles.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 40
+      },
+      "8xl": {
+        "$description": "Desktop: 72px · Mobile: 44px. Uso: Hero titles grandes.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 44
+      },
+      "9xl": {
+        "$description": "Desktop: 80px · Mobile: 48px. Uso: Hero máximo.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 48
+      },
+      "lg": {
+        "$description": "Desktop: 20px · Mobile: 16px. Uso: subtítulos, texto de lead.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 16
+      },
+      "md": {
+        "$description": "Desktop: 16px · Mobile: 14px. Uso: body text, inputs — tamanho base.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 14
+      },
+      "sm": {
+        "$description": "Desktop: 14px · Mobile: 12px. Uso: helper text, labels.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 12
+      },
+      "xl": {
+        "$description": "Desktop: 24px · Mobile: 18px. Uso: H3, headings menores.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 18
+      },
+      "xs": {
+        "$description": "Desktop: 12px · Mobile: 10px. Uso: captions, overlines.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 10
+      },
+      "xxs": {
+        "$description": "Desktop: 10px · Mobile: 9px. Uso: legal text, badges pequenos.",
+        "$scopes": [
+          "FONT_SIZE"
+        ],
+        "$type": "float",
+        "$value": 9
+      }
+    },
+    "weight": {
+      "bold": {
+        "$description": "700 — Negrito. Uso: títulos, display.",
+        "$scopes": [
+          "FONT_STYLE"
+        ],
+        "$type": "string",
+        "$value": "Bold"
+      },
+      "bold-italic": {
+        "$description": "700 Itálico.",
+        "$scopes": [
+          "FONT_STYLE"
+        ],
+        "$type": "string",
+        "$value": "Bold Italic"
+      },
+      "italic": {
+        "$description": "400 Itálico. Uso: ênfase sutil em texto corrido.",
+        "$scopes": [
+          "FONT_STYLE"
+        ],
+        "$type": "string",
+        "$value": "Italic"
+      },
+      "medium": {
+        "$description": "500 — Peso médio. Uso: subtítulos, labels.",
+        "$scopes": [
+          "FONT_STYLE"
+        ],
+        "$type": "string",
+        "$value": "Medium"
+      },
+      "medium-italic": {
+        "$description": "500 Itálico.",
+        "$scopes": [
+          "FONT_STYLE"
+        ],
+        "$type": "string",
+        "$value": "Medium Italic"
+      },
+      "regular": {
+        "$description": "400 — Peso padrão. Uso: body text, input values.",
+        "$scopes": [
+          "FONT_STYLE"
+        ],
+        "$type": "string",
+        "$value": "Regular"
+      },
+      "semibold": {
+        "$description": "600 — Peso semi-negrito. Uso: botões, headings menores.",
+        "$scopes": [
+          "FONT_STYLE"
+        ],
+        "$type": "string",
+        "$value": "Semibold"
+      },
+      "semibold-italic": {
+        "$description": "600 Itálico.",
+        "$scopes": [
+          "FONT_STYLE"
+        ],
+        "$type": "string",
+        "$value": "Semibold Italic"
+      }
+    }
+  }
+}

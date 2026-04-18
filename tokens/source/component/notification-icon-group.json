@@ -1,0 +1,62 @@
+{
+  "component": {
+    "notification-icon-group": {
+      "counter": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do contador e do dot de notificação.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.danger-strong}"
+        },
+        "bg-subtle": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo sutil do contador quando o app precisar de um badge menos intenso.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.feedback.error.light}"
+        },
+        "text": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do contador sobre fundo destrutivo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.inverse}"
+        }
+      },
+      "icon": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fill do sino em todas as variantes.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.dark}"
+        }
+      },
+      "layout": {
+        "hidden": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Elemento invisível de layout e hit-area.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "component": {
+    "modal": {
+      "bg": {
+        "$collectionName": "Semantic Tokens",
+        "$description": "Fundo do container do modal.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.surface.default}"
+      },
+      "border": {
+        "top": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Linha separadora entre cabeçalho e corpo do modal.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.subtle}"
+        }
+      },
+      "radius": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Border radius do modal (24px). Cantos mais arredondados.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{border.radius.xl}"
+      },
+      "title": {
+        "color": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do título do modal.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.primary}"
+        }
+      }
+    }
+  }
+}

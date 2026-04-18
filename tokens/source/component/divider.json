@@ -1,0 +1,28 @@
+{
+  "component": {
+    "divider": {
+      "color": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do divider padrão. Cinza 20 para separação sutil entre seções.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.default}"
+        },
+        "subtle": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do divider sutil. Cinza 10 para divisão mínima de conteúdo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.subtle}"
+        }
+      }
+    }
+  }
+}

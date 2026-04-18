@@ -1,0 +1,314 @@
+{
+  "component": {
+    "input": {
+      "bg": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do campo de texto padrao.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.default}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do campo desabilitado.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        },
+        "view-only": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do campo em estado view-only.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        }
+      },
+      "border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do input no estado padrao.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.input}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do input em estado disabled.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.input-disabled}"
+        },
+        "error": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do input com erro de validacao.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.error}"
+        },
+        "focus": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do input em foco.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.active}"
+        },
+        "focus-width": {
+          "$collectionName": "Primitive tokens",
+          "$description": "Espessura da borda do input em foco (2px).",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "float",
+          "$value": "{border.stroke.stroke-medium}"
+        },
+        "hover": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do input em hover.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.hover}"
+        },
+        "view-only": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do input em estado view-only.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.input}"
+        }
+      },
+      "border-width": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Espessura da borda padrao do input (1px).",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{border.stroke.stroke-thin}"
+      },
+      "cancel": {
+        "text": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto da acao cancelar em inputs.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.cancel}"
+        }
+      },
+      "helper": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto auxiliar abaixo do campo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.helper}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto auxiliar do campo em disabled.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.helper-disabled}"
+        },
+        "error": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto de erro abaixo do campo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.error}"
+        }
+      },
+      "icon": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Icone padrao do input.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.default}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Icone do input em disabled.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.disabled}"
+        },
+        "error": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Icone do input em estado de erro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.error}"
+        }
+      },
+      "label": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label flutuante do input no estado padrao.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.secondary}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label do input em disabled.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.label-disabled}"
+        },
+        "error": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label do input em estado de erro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.label-error}"
+        }
+      },
+      "placeholder": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do placeholder do input.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.tertiary}"
+        }
+      },
+      "prefix": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Prefixo ou sufixo do input.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.prefix}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Prefixo ou sufixo do input em disabled.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.prefix-disabled}"
+        },
+        "error": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Prefixo ou sufixo do input em estado de erro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.error}"
+        }
+      },
+      "radius": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Border radius do campo de texto (4px).",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{border.radius.xs}"
+      },
+      "value": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do texto digitado pelo usuario.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.value}"
+        },
+        "error": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do texto do input em estado de erro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.error}"
+        },
+        "hover": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do value ou placeholder em hover.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.placeholder-hover}"
+        }
+      }
+    }
+  }
+}

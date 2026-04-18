@@ -1,0 +1,22 @@
+{
+  "id": "neutral",
+  "figmaMode": "NeutralTheme",
+  "status": "migrated-from-ds-react",
+  "source": {
+    "tokensFile": "/Users/jonathanfernandes/ds-react/tokens-for-react.json",
+    "designDoc": "/Users/jonathanfernandes/ds-react/design.md",
+    "designVersion": "2.7.3",
+    "designDate": "17/04/2026",
+    "designStatus": "Auditoria Figma↔doc concluída — 0 divergências (Link, Shortcuts, Section Title, Benefits Card, Benefits Content Card, Dotnav, Banner, Progress Bar, Benefits Goals, Card Store Item, Carousel Store, Toolbar, Badge, Movie Poster, Event Card, Shortcuts Menu, Fique por dentro Card, Camera, Notification Icon Group auditados)"
+  },
+  "tokenCounts": {
+    "primitiveOverrides": 0
+  },
+  "overrides": {
+    "primitives": {
+      "border": {},
+      "color": {},
+      "spacing": {}
+    }
+  }
+}

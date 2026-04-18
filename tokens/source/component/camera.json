@@ -1,0 +1,38 @@
+{
+  "component": {
+    "camera": {
+      "default-size": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Tamanho padrão do viewfinder da câmera no app.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 220
+      },
+      "stroke": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Traço dos cantos do viewfinder da câmera.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.active}"
+        }
+      },
+      "stroke-width": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Espessura padrão do traço dos cantos do viewfinder.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 3
+      }
+    }
+  }
+}

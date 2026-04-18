@@ -1,0 +1,22 @@
+{
+  "name": "vitrine-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fonte de verdade do Design System da Vitrine.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "tokens:audit-design-doc": "node ./scripts/audit-design-doc-tokens.mjs",
+    "tokens:audit-current-state": "node ./scripts/audit-current-design-system-state.mjs",
+    "tokens:build-compat-layer": "node ./scripts/build-compat-layer.mjs",
+    "tokens:build": "node ./scripts/build-tokens-dist.mjs",
+    "tokens:materialize-wave-1": "node ./scripts/materialize-design-deltas-wave-1.mjs",
+    "tokens:materialize-wave-2": "node ./scripts/materialize-design-deltas-wave-2.mjs",
+    "tokens:materialize-wave-3": "node ./scripts/materialize-design-deltas-wave-3.mjs",
+    "tokens:materialize-wave-4": "node ./scripts/materialize-design-deltas-wave-4.mjs",
+    "tokens:migrate-from-ds-react": "node ./scripts/migrate-tokens-from-ds-react.mjs",
+    "tokens:sync-ds-react": "node ./scripts/sync-ds-react-theme.mjs",
+    "tokens:validate": "node ./scripts/validate-tokens.mjs",
+    "showcase:start": "echo \"App de showcase ainda nao configurado\"",
+    "docs:check": "echo \"Checklist de documentacao ainda nao configurado\""
+  }
+}

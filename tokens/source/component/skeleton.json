@@ -1,0 +1,28 @@
+{
+  "component": {
+    "skeleton": {
+      "bg": {
+        "base": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor base do skeleton. Cinza 10 como plano de fundo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        },
+        "highlight": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor de destaque do shimmer do skeleton. Branco que percorre a base.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.default}"
+        }
+      }
+    }
+  }
+}

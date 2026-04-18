@@ -1,0 +1,126 @@
+{
+  "component": {
+    "navigation-bar": {
+      "badge": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do badge de notificação sobre o ícone da nav bar.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.brand}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do badge de notificação. Branco.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.inverse}"
+        }
+      },
+      "bg": {
+        "$collectionName": "Semantic Tokens",
+        "$description": "Fundo da barra de navegação inferior. Superfície padrão do tema.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "color",
+        "$value": "{color.surface.default}"
+      },
+      "border": {
+        "top": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Linha separadora no topo da nav bar. Borda validada no Figma.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.default}"
+        }
+      },
+      "height": {
+        "$collectionName": "Primitive tokens",
+        "$libraryName": "",
+        "$description": "Altura total da nav bar mobile validada no Figma (86px).",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 86
+      },
+      "icon-size": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Tamanho padrão dos ícones da nav bar (20px). Grid 4px: 20px = 5 unidades.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{spacing.padding.positive.md}"
+      },
+      "item": {
+        "active": {
+          "bg": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Fundo do item ativo na nav bar.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.surface.brand-subtle}"
+          },
+          "icon": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Ícone do item ativo na tab bar.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.icon.brand-tint}"
+          },
+          "label": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label do item ativo.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.brand-strong}"
+          }
+        },
+        "default": {
+          "icon": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Ícone dos itens inativos.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.icon.secondary}"
+          },
+          "label": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Label dos itens inativos.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.secondary}"
+          }
+        }
+      }
+    }
+  }
+}

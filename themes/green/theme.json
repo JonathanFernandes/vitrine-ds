@@ -1,0 +1,246 @@
+{
+  "id": "green",
+  "figmaMode": "GreenTheme",
+  "status": "migrated-from-ds-react",
+  "source": {
+    "tokensFile": "/Users/jonathanfernandes/ds-react/tokens-for-react.json",
+    "designDoc": "/Users/jonathanfernandes/ds-react/design.md",
+    "designVersion": "2.7.3",
+    "designDate": "17/04/2026",
+    "designStatus": "Auditoria Figma↔doc concluída — 0 divergências (Link, Shortcuts, Section Title, Benefits Card, Benefits Content Card, Dotnav, Banner, Progress Bar, Benefits Goals, Card Store Item, Carousel Store, Toolbar, Badge, Movie Poster, Event Card, Shortcuts Menu, Fique por dentro Card, Camera, Notification Icon Group auditados)"
+  },
+  "tokenCounts": {
+    "primitiveOverrides": 26
+  },
+  "overrides": {
+    "primitives": {
+      "border": {
+        "radius": {
+          "2xs": {
+            "$description": "Arredondamento mínimo. Valor varia por tema (1–2px).",
+            "$scopes": [
+              "CORNER_RADIUS"
+            ],
+            "$type": "float",
+            "$value": 2
+          }
+        }
+      },
+      "color": {
+        "ambient": {
+          "neutral": {
+            "10": {
+              "$description": "Tint 10 da cor primária do tema. Uso: fundos de destaque sutis.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#f0f4f2"
+            },
+            "20": {
+              "$description": "Tint 20 da cor primária do tema.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#e2e9e4"
+            },
+            "30": {
+              "$description": "Tint 30 da cor primária do tema.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#c4d4c9"
+            },
+            "40": {
+              "$description": "Tint 40 da cor primária do tema.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#a7beaf"
+            },
+            "50": {
+              "$description": "Tint 50 da cor primária do tema. Tom médio da paleta.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#89a994"
+            },
+            "60": {
+              "$description": "Tint 60 da cor primária do tema. ⚠️ WCAG sobre branco: Neutral 4.38:1, Leblon 3.18:1, Red ✅ 4.5:1, Green 3.45:1. Uso seguro apenas para texto GRANDE (18px+ regular ou 14px+ bold) ou como ícone/decoração.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#6c9379"
+            },
+            "70": {
+              "$description": "Tint 70 da cor primária do tema.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#567661"
+            },
+            "80": {
+              "$description": "Tint 80 da cor primária do tema.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#415849"
+            },
+            "90": {
+              "$description": "Tint 90 da cor primária do tema.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#2b3b30"
+            },
+            "100": {
+              "$description": "Tom mais escuro da paleta neutra do tema.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#161d18"
+            }
+          },
+          "neutral-opacity": {
+            "10": {
+              "$description": "Cor neutra do tema com 10% opacidade.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "rgba(108, 147, 121, 0.1)"
+            },
+            "20": {
+              "$description": "Cor neutra do tema com 25% opacidade.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "rgba(108, 147, 121, 0.25)"
+            },
+            "30": {
+              "$description": "Cor neutra do tema com 50% opacidade.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "rgba(108, 147, 121, 0.5)"
+            },
+            "40": {
+              "$description": "Cor neutra do tema com 75% opacidade.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "rgba(108, 147, 121, 0.75)"
+            },
+            "50": {
+              "$description": "Cor neutra do tema com 90% opacidade.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "rgba(108, 147, 121, 0.9)"
+            }
+          }
+        },
+        "function": {
+          "primary": {
+            "action": {
+              "$description": "Cor primária pressionada — versão escura, alto contraste. WCAG sobre branco: Neutral ✅ 8.5:1 (AAA), Leblon ✅ 7.2:1 (AAA), Red ✅ 14:1 (AAA), Green ✅ 10:1 (AAA). Uso: texto de links, botão ghost text, estados hover/pressed.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#265937"
+            },
+            "active": {
+              "$description": "Cor primária ativa/selecionada. Uso: estados active e selected.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#94d1a8"
+            },
+            "dark": {
+              "$description": "Versão escura da cor primária. Uso: texto sobre fundos claros, dark mode.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#0f2416"
+            },
+            "default": {
+              "$description": "Cor primária da marca — varia por tema. ⚠️ WCAG sobre branco: Neutral 4.47:1 (AA Large), Leblon 3.24:1 (AA Large), Red ✅ 6.2:1, Green ✅ 5.3:1. Uso: ícones, bordas, fundos de marca. Para TEXTO pequeno usar /Action.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#367d4d"
+            },
+            "light": {
+              "$description": "Versão clara da cor primária. Uso: backgrounds de chips, badges.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#dbf0e2"
+            }
+          },
+          "secondary": {
+            "action": {
+              "$description": "Cor secundária pressionada. Uso: estados pressed.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#26736c"
+            },
+            "active": {
+              "$description": "Cor secundária ativa/selecionada.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#8cd9d2"
+            },
+            "dark": {
+              "$description": "Versão escura da cor secundária.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#0d2624"
+            },
+            "default": {
+              "$description": "Cor secundária da marca. Varia por tema.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#40bfb4"
+            },
+            "light": {
+              "$description": "Versão clara da cor secundária. Uso: backgrounds de chips secundários.",
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$value": "#d9f2f0"
+            }
+          }
+        }
+      },
+      "spacing": {}
+    }
+  }
+}

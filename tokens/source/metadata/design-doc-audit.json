@@ -1,0 +1,4285 @@
+{
+  "source": {
+    "designDoc": "/Users/jonathanfernandes/ds-react/design.md",
+    "tokensExport": "/Users/jonathanfernandes/ds-react/tokens-for-react.json"
+  },
+  "summary": {
+    "documentedTokenCount": 510,
+    "exportedTokenCount": 350,
+    "documentedButMissingCount": 227,
+    "exportedButUndocumentedCount": 67,
+    "highConfidenceAliasCount": 23
+  },
+  "documentedButMissing": [
+    {
+      "token": "color.border.accent-secondary",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.disabled",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.error",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.border.active",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.disabled",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.error",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.border.brand-strong",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.disabled",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.error",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.border.card",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.disabled",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.error",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.border.danger-active",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.disabled",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.error",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.border.hover",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.disabled",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.error",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.border.image",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.disabled",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.error",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.border.input",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.disabled",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.error",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.border.input-disabled",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.disabled",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.error",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.border.light",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.disabled",
+          "score": 0.667
+        },
+        {
+          "token": "color.border.error",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.icon.brand-strong",
+      "candidates": [
+        {
+          "token": "color.icon.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.danger",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.default",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.icon.brand-tint",
+      "candidates": [
+        {
+          "token": "color.icon.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.danger",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.default",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.icon.dark",
+      "candidates": [
+        {
+          "token": "color.icon.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.danger",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.default",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.icon.loyalty-star",
+      "candidates": [
+        {
+          "token": "color.icon.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.danger",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.default",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.icon.muted",
+      "candidates": [
+        {
+          "token": "color.icon.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.danger",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.default",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.icon.negative",
+      "candidates": [
+        {
+          "token": "color.icon.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.danger",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.default",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.icon.on-brand",
+      "candidates": [
+        {
+          "token": "color.icon.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.danger",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.default",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.icon.on-surface",
+      "candidates": [
+        {
+          "token": "color.icon.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.danger",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.default",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.icon.secondary",
+      "candidates": [
+        {
+          "token": "color.icon.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.danger",
+          "score": 0.667
+        },
+        {
+          "token": "color.icon.default",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.indicator.default",
+      "candidates": [
+        {
+          "token": "color.border.default",
+          "score": 0.533
+        },
+        {
+          "token": "color.icon.default",
+          "score": 0.533
+        },
+        {
+          "token": "color.surface.default",
+          "score": 0.533
+        }
+      ]
+    },
+    {
+      "token": "color.indicator.muted",
+      "candidates": []
+    },
+    {
+      "token": "color.indicator.negative",
+      "candidates": []
+    },
+    {
+      "token": "color.indicator.negative-muted",
+      "candidates": []
+    },
+    {
+      "token": "color.interactive.secondary.default-invert",
+      "candidates": [
+        {
+          "token": "color.interactive.secondary.default",
+          "score": 0.75
+        },
+        {
+          "token": "color.interactive.secondary.hover",
+          "score": 0.75
+        },
+        {
+          "token": "color.interactive.secondary.pressed",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "token": "color.surface.brand-active",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.brand-strong",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.card",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.dark",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.disabled",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.disabled-strong",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.image-tinted",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.neutral-light",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.neutral-muted",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.overlay-strong",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.placeholder",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.premiere",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.promo",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.surface.track",
+      "candidates": [
+        {
+          "token": "color.surface.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.brand-subtle",
+          "score": 0.667
+        },
+        {
+          "token": "color.surface.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.body",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.cancel",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.danger-pressed",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.dark",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.default",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.helper",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.helper-disabled",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.hover",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.label-disabled",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.label-error",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.negative",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.negative-hover",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.on-dark",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.on-premiere",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.on-promo",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.placeholder-hover",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.prefix",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.prefix-disabled",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.pressed",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.strong",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "color.text.value",
+      "candidates": [
+        {
+          "token": "color.text.brand",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.brand-strong",
+          "score": 0.667
+        },
+        {
+          "token": "color.text.danger",
+          "score": 0.667
+        }
+      ]
+    },
+    {
+      "token": "component.badge.blog.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.badge.blog.fg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.disabled.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.badge.disabled.fg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.error.fg",
+      "candidates": [
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.75
+        },
+        {
+          "token": "component.badge.error.label",
+          "score": 0.75
+        },
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.filter-active.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.badge.filter-active.fg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.filter-default.border",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.filter-default.fg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.info.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.badge.info.fg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.neutral-1.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.badge.neutral-1.fg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.neutral-2.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.badge.neutral-2.fg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.neutral-3.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.badge.neutral-3.fg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.premiere.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.badge.premiere.fg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.promo.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.65
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.badge.promo.fg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.5
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.success.fg",
+      "candidates": [
+        {
+          "token": "component.badge.success.bg",
+          "score": 0.75
+        },
+        {
+          "token": "component.badge.success.label",
+          "score": 0.75
+        },
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.badge.warning.fg",
+      "candidates": [
+        {
+          "token": "component.badge.warning.bg",
+          "score": 0.75
+        },
+        {
+          "token": "component.badge.warning.label",
+          "score": 0.75
+        },
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.banner.bg.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.input.bg.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-card.action-bg.disabled",
+      "candidates": [
+        {
+          "token": "component.checkbox.bg.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.input.bg.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.input.border.disabled",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-card.action.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-card.action.disabled",
+      "candidates": [
+        {
+          "token": "component.checkbox.bg.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.input.bg.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.input.border.disabled",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-card.container-bg.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-card.image-bg.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-card.lock-bg.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-card.logo-border.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-card.on-dark.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-card.secondary.default",
+      "candidates": [
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.44
+        },
+        {
+          "token": "component.button.secondary.label.default",
+          "score": 0.44
+        },
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-card.text.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-content-card.border.default",
+      "candidates": [
+        {
+          "token": "component.card.border.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.input.border.default",
+          "score": 0.55
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-content-card.icon.outline.default",
+      "candidates": [
+        {
+          "token": "component.navigation-bar.item.default.icon",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-content-card.icon.star.default",
+      "candidates": [
+        {
+          "token": "component.navigation-bar.item.default.icon",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-content-card.surface.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-content-card.surface.inner",
+      "candidates": []
+    },
+    {
+      "token": "component.benefits-content-card.text.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-goals.subtitle.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.benefits-goals.title.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.title.color",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.bottom-menu.background.active",
+      "candidates": [
+        {
+          "token": "component.steps.active.bg",
+          "score": 0.4
+        },
+        {
+          "token": "component.steps.active.label",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.bottom-menu.icon.active",
+      "candidates": [
+        {
+          "token": "component.navigation-bar.item.active.icon",
+          "score": 0.44
+        },
+        {
+          "token": "component.feedback.error.icon",
+          "score": 0.4
+        },
+        {
+          "token": "component.feedback.info.icon",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.bottom-menu.icon.default",
+      "candidates": [
+        {
+          "token": "component.navigation-bar.item.default.icon",
+          "score": 0.44
+        },
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.bottom-menu.label.active",
+      "candidates": [
+        {
+          "token": "component.steps.active.label",
+          "score": 0.55
+        },
+        {
+          "token": "component.navigation-bar.item.active.label",
+          "score": 0.44
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.bottom-menu.label.default",
+      "candidates": [
+        {
+          "token": "component.input.label.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.44
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.bg.default",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.primary.bg.default",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.64
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.bg.disabled",
+      "candidates": [
+        {
+          "token": "component.button.primary.bg.disabled",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.bg.hover",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.bg.focus",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.bg.hover",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.bg.pressed",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.bg.hover",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.hover",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.ghost.bg.hover",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.primary.bg.hover",
+          "score": 0.64
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.bg.loading",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.bg.hover",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.bg.pressed",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.bg.pressed",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.pressed",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.primary.bg.pressed",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.secondary.bg.pressed",
+          "score": 0.64
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.border.focus",
+      "candidates": [
+        {
+          "token": "component.button.ghost.border.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.checkbox.border.focus",
+          "score": 0.44
+        },
+        {
+          "token": "component.input.border.focus",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.label.default",
+      "candidates": [
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.primary.label.default",
+          "score": 0.64
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.label.disabled",
+      "candidates": [
+        {
+          "token": "component.button.primary.label.disabled",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.label.focus",
+      "candidates": [
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.primary.label.default",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.label.hover",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.hover",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.ghost.bg.hover",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.label.loading",
+      "candidates": [
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.primary.label.default",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.primary-inverse.label.pressed",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.pressed",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.bg.disabled",
+      "candidates": [
+        {
+          "token": "component.button.primary.bg.disabled",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.bg.hover",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.bg.focus",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.bg.hover",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.bg.pressed",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.bg.hover",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.hover",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.ghost.bg.hover",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.primary.bg.hover",
+          "score": 0.64
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.bg.loading",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.bg.hover",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.bg.pressed",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.bg.pressed",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.pressed",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.primary.bg.pressed",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.secondary.bg.pressed",
+          "score": 0.64
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.border.default",
+      "candidates": [
+        {
+          "token": "component.button.ghost.border.default",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.border.focus",
+      "candidates": [
+        {
+          "token": "component.button.ghost.border.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.checkbox.border.focus",
+          "score": 0.44
+        },
+        {
+          "token": "component.input.border.focus",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.label.default",
+      "candidates": [
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.primary.label.default",
+          "score": 0.64
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.label.disabled",
+      "candidates": [
+        {
+          "token": "component.button.primary.label.disabled",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.label.focus",
+      "candidates": [
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.primary.label.default",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.label.hover",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.hover",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.ghost.bg.hover",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.label.loading",
+      "candidates": [
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.primary.label.default",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary-inverse.label.pressed",
+      "candidates": [
+        {
+          "token": "component.button.danger.bg.pressed",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.52
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary.bg.disabled",
+      "candidates": [
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.secondary.bg.hover",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.secondary.bg.pressed",
+          "score": 0.8
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary.bg.focus",
+      "candidates": [
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.secondary.bg.hover",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.secondary.bg.pressed",
+          "score": 0.8
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary.bg.loading",
+      "candidates": [
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.secondary.bg.hover",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.secondary.bg.pressed",
+          "score": 0.8
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary.border.default",
+      "candidates": [
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.72
+        },
+        {
+          "token": "component.button.secondary.label.default",
+          "score": 0.72
+        },
+        {
+          "token": "component.button.ghost.border.default",
+          "score": 0.64
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary.border.focus",
+      "candidates": [
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.6
+        },
+        {
+          "token": "component.button.secondary.bg.hover",
+          "score": 0.6
+        },
+        {
+          "token": "component.button.secondary.bg.pressed",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary.label.disabled",
+      "candidates": [
+        {
+          "token": "component.button.secondary.label.default",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.primary.label.disabled",
+          "score": 0.64
+        },
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary.label.focus",
+      "candidates": [
+        {
+          "token": "component.button.secondary.label.default",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.6
+        },
+        {
+          "token": "component.button.secondary.bg.hover",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary.label.hover",
+      "candidates": [
+        {
+          "token": "component.button.secondary.label.default",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.secondary.bg.hover",
+          "score": 0.72
+        },
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary.label.loading",
+      "candidates": [
+        {
+          "token": "component.button.secondary.label.default",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.6
+        },
+        {
+          "token": "component.button.secondary.bg.hover",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "token": "component.button.secondary.label.pressed",
+      "candidates": [
+        {
+          "token": "component.button.secondary.label.default",
+          "score": 0.8
+        },
+        {
+          "token": "component.button.secondary.bg.pressed",
+          "score": 0.72
+        },
+        {
+          "token": "component.button.secondary.bg.default",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "token": "component.camera.stroke.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.card-store-item.image-border.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.card-store-item.image-fill.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.card-store-item.logo-bg.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.card-store-item.logo-border.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.card-store-item.logo-inner-bg.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.card-store-item.logo-inner-border.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.card-store-item.name.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.dotnav.dot.active",
+      "candidates": [
+        {
+          "token": "component.radio.dot.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.radio.dot.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.radio.dot.selected",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.dotnav.dot.active-negative",
+      "candidates": [
+        {
+          "token": "component.radio.dot.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.radio.dot.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.radio.dot.selected",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.dotnav.dot.inactive",
+      "candidates": [
+        {
+          "token": "component.radio.dot.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.radio.dot.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.radio.dot.selected",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.dotnav.dot.inactive-negative",
+      "candidates": [
+        {
+          "token": "component.radio.dot.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.radio.dot.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.radio.dot.selected",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.event-card.bg.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.input.bg.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.event-card.border.default",
+      "candidates": [
+        {
+          "token": "component.card.border.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.input.border.default",
+          "score": 0.55
+        }
+      ]
+    },
+    {
+      "token": "component.event-card.date.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.event-card.icon.default",
+      "candidates": [
+        {
+          "token": "component.navigation-bar.item.default.icon",
+          "score": 0.44
+        },
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.event-card.image-border.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.event-card.title.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.title.color",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.fique-por-dentro-card.bg.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.input.bg.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.fique-por-dentro-card.border.default",
+      "candidates": [
+        {
+          "token": "component.card.border.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.input.border.default",
+          "score": 0.55
+        }
+      ]
+    },
+    {
+      "token": "component.fique-por-dentro-card.date.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.fique-por-dentro-card.icon.default",
+      "candidates": [
+        {
+          "token": "component.navigation-bar.item.default.icon",
+          "score": 0.44
+        },
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.fique-por-dentro-card.title.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.title.color",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.input.bg.view-only",
+      "candidates": [
+        {
+          "token": "component.input.bg.default",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.bg.disabled",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.border-width",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.input.border.focus-width",
+      "candidates": [
+        {
+          "token": "component.input.border.default",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.border.disabled",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.border.error",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "token": "component.input.border.hover",
+      "candidates": [
+        {
+          "token": "component.input.border.default",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.border.disabled",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.border.error",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "token": "component.input.border.view-only",
+      "candidates": [
+        {
+          "token": "component.input.border.default",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.border.disabled",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.border.error",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "token": "component.input.cancel.text",
+      "candidates": [
+        {
+          "token": "component.input.bg.default",
+          "score": 0.5
+        },
+        {
+          "token": "component.input.bg.disabled",
+          "score": 0.5
+        },
+        {
+          "token": "component.input.border-width",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.input.helper.disabled",
+      "candidates": [
+        {
+          "token": "component.input.helper.default",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.helper.error",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.bg.disabled",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.input.icon.default",
+      "candidates": [
+        {
+          "token": "component.input.bg.default",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.border.default",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.helper.default",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.input.icon.disabled",
+      "candidates": [
+        {
+          "token": "component.input.bg.disabled",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.border.disabled",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.label.disabled",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.input.icon.error",
+      "candidates": [
+        {
+          "token": "component.input.border.error",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.helper.error",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.label.error",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.input.prefix.default",
+      "candidates": [
+        {
+          "token": "component.input.bg.default",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.border.default",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.helper.default",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.input.prefix.disabled",
+      "candidates": [
+        {
+          "token": "component.input.bg.disabled",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.border.disabled",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.label.disabled",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.input.prefix.error",
+      "candidates": [
+        {
+          "token": "component.input.border.error",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.helper.error",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.label.error",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.input.value.error",
+      "candidates": [
+        {
+          "token": "component.input.value.default",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.border.error",
+          "score": 0.65
+        },
+        {
+          "token": "component.input.helper.error",
+          "score": 0.65
+        }
+      ]
+    },
+    {
+      "token": "component.input.value.hover",
+      "candidates": [
+        {
+          "token": "component.input.value.default",
+          "score": 0.75
+        },
+        {
+          "token": "component.input.bg.default",
+          "score": 0.5
+        },
+        {
+          "token": "component.input.bg.disabled",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.link.destructive.focus-stroke",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.5
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.5
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.link.destructive.text.default",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.link.destructive.text.disabled",
+      "candidates": [
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.52
+        },
+        {
+          "token": "component.link.color.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.link.destructive.text.hover",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.link.destructive.text.pressed",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.link.negative.focus-stroke",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.5
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.5
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.link.negative.text.default",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.link.negative.text.disabled",
+      "candidates": [
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.52
+        },
+        {
+          "token": "component.link.color.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.link.negative.text.hover",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.link.primary.focus-stroke",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.5
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.5
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.link.primary.text.default",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.primary.bg.default",
+          "score": 0.44
+        },
+        {
+          "token": "component.button.primary.label.default",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.link.primary.text.disabled",
+      "candidates": [
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.52
+        },
+        {
+          "token": "component.button.primary.bg.disabled",
+          "score": 0.44
+        },
+        {
+          "token": "component.button.primary.label.disabled",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.link.primary.text.hover",
+      "candidates": [
+        {
+          "token": "component.button.primary.bg.hover",
+          "score": 0.44
+        },
+        {
+          "token": "component.link.color.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.link.primary.text.pressed",
+      "candidates": [
+        {
+          "token": "component.button.primary.bg.pressed",
+          "score": 0.44
+        },
+        {
+          "token": "component.link.color.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.movie-poster.text.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.notification-icon-group.counter.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.4
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.4
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.notification-icon-group.counter.text",
+      "candidates": []
+    },
+    {
+      "token": "component.notification-icon-group.icon.default",
+      "candidates": [
+        {
+          "token": "component.navigation-bar.item.default.icon",
+          "score": 0.44
+        },
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.notification-icon-group.layout.hidden",
+      "candidates": []
+    },
+    {
+      "token": "component.progress-bar.fill.disabled",
+      "candidates": [
+        {
+          "token": "component.progress-bar.fill.brand",
+          "score": 0.75
+        },
+        {
+          "token": "component.progress-bar.fill.success",
+          "score": 0.75
+        },
+        {
+          "token": "component.progress-bar.height",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.progress-bar.fill.primary",
+      "candidates": [
+        {
+          "token": "component.progress-bar.fill.brand",
+          "score": 0.75
+        },
+        {
+          "token": "component.progress-bar.fill.success",
+          "score": 0.75
+        },
+        {
+          "token": "component.progress-bar.height",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.progress-bar.track.default",
+      "candidates": [
+        {
+          "token": "component.progress-bar.track.bg",
+          "score": 0.75
+        },
+        {
+          "token": "component.progress-bar.fill.brand",
+          "score": 0.5
+        },
+        {
+          "token": "component.progress-bar.fill.success",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "token": "component.section-title.link.default",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.section-title.link.negative",
+      "candidates": [
+        {
+          "token": "component.link.color.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.link.color.visited",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.section-title.title.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.title.color",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.section-title.title.negative",
+      "candidates": [
+        {
+          "token": "component.card.title.color",
+          "score": 0.4
+        },
+        {
+          "token": "component.modal.title.color",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.active.bg",
+      "candidates": [
+        {
+          "token": "component.steps.active.bg",
+          "score": 0.55
+        },
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.4
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.active.border",
+      "candidates": [
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.subtle",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.active.icon",
+      "candidates": [
+        {
+          "token": "component.navigation-bar.item.active.icon",
+          "score": 0.44
+        },
+        {
+          "token": "component.feedback.error.icon",
+          "score": 0.4
+        },
+        {
+          "token": "component.feedback.info.icon",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.active.label",
+      "candidates": [
+        {
+          "token": "component.steps.active.label",
+          "score": 0.55
+        },
+        {
+          "token": "component.navigation-bar.item.active.label",
+          "score": 0.44
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.default.bg",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.input.bg.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.button.danger.bg.default",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.default.border",
+      "candidates": [
+        {
+          "token": "component.card.border.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.input.border.default",
+          "score": 0.55
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.default.icon-fill",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.default.icon-stroke",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.default.label",
+      "candidates": [
+        {
+          "token": "component.input.label.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.44
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.disabled.icon-stroke",
+      "candidates": [
+        {
+          "token": "component.checkbox.bg.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.input.bg.disabled",
+          "score": 0.4
+        },
+        {
+          "token": "component.input.border.disabled",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.disabled.label",
+      "candidates": [
+        {
+          "token": "component.input.label.disabled",
+          "score": 0.55
+        },
+        {
+          "token": "component.button.primary.label.disabled",
+          "score": 0.44
+        },
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.menu.bg",
+      "candidates": [
+        {
+          "token": "component.badge.brand.bg",
+          "score": 0.4
+        },
+        {
+          "token": "component.badge.danger.bg",
+          "score": 0.4
+        },
+        {
+          "token": "component.badge.error.bg",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.menu.border",
+      "candidates": [
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.subtle",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.menu.icon",
+      "candidates": [
+        {
+          "token": "component.feedback.error.icon",
+          "score": 0.4
+        },
+        {
+          "token": "component.feedback.info.icon",
+          "score": 0.4
+        },
+        {
+          "token": "component.feedback.success.icon",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.shortcuts-menu.menu.icon-accent",
+      "candidates": []
+    },
+    {
+      "token": "component.shortcuts-menu.menu.icon-bg",
+      "candidates": []
+    },
+    {
+      "token": "component.shortcuts-menu.menu.label",
+      "candidates": [
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.4
+        },
+        {
+          "token": "component.badge.danger.label",
+          "score": 0.4
+        },
+        {
+          "token": "component.badge.error.label",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.toolbar.chevron.default",
+      "candidates": [
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.checkbox.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.toolbar.icon.default",
+      "candidates": [
+        {
+          "token": "component.navigation-bar.item.default.icon",
+          "score": 0.44
+        },
+        {
+          "token": "component.card.bg.default",
+          "score": 0.4
+        },
+        {
+          "token": "component.card.border.default",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.toolbar.icon.negative",
+      "candidates": [
+        {
+          "token": "component.feedback.error.icon",
+          "score": 0.4
+        },
+        {
+          "token": "component.feedback.info.icon",
+          "score": 0.4
+        },
+        {
+          "token": "component.feedback.success.icon",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "token": "component.toolbar.label.default",
+      "candidates": [
+        {
+          "token": "component.input.label.default",
+          "score": 0.55
+        },
+        {
+          "token": "component.button.danger.label.default",
+          "score": 0.44
+        },
+        {
+          "token": "component.button.ghost.label.default",
+          "score": 0.44
+        }
+      ]
+    },
+    {
+      "token": "component.toolbar.label.negative",
+      "candidates": [
+        {
+          "token": "component.badge.brand.label",
+          "score": 0.4
+        },
+        {
+          "token": "component.badge.danger.label",
+          "score": 0.4
+        },
+        {
+          "token": "component.badge.error.label",
+          "score": 0.4
+        }
+      ]
+    }
+  ],
+  "exportedButUndocumented": [
+    "component.badge.brand.bg",
+    "component.badge.brand.label",
+    "component.badge.danger.bg",
+    "component.badge.danger.label",
+    "component.badge.error.label",
+    "component.badge.neutral.bg",
+    "component.badge.neutral.label",
+    "component.badge.success.label",
+    "component.badge.warning.label",
+    "component.bottom-sheet.bg",
+    "component.bottom-sheet.handle.color",
+    "component.bottom-sheet.radius",
+    "component.card.bg.default",
+    "component.card.bg.raised",
+    "component.card.border.default",
+    "component.card.border.subtle",
+    "component.card.padding",
+    "component.card.radius",
+    "component.card.title.color",
+    "component.checkbox.bg.checked",
+    "component.checkbox.bg.disabled",
+    "component.checkbox.bg.unchecked",
+    "component.checkbox.border.default",
+    "component.checkbox.border.error",
+    "component.checkbox.border.focus",
+    "component.checkbox.checkmark.color",
+    "component.link.color.default",
+    "component.link.color.disabled",
+    "component.link.color.visited",
+    "component.modal.bg",
+    "component.modal.border.top",
+    "component.modal.radius",
+    "component.modal.title.color",
+    "component.navigation-bar.badge.bg",
+    "component.navigation-bar.badge.label",
+    "component.navigation-bar.bg",
+    "component.navigation-bar.border.top",
+    "component.navigation-bar.height",
+    "component.navigation-bar.icon-size",
+    "component.navigation-bar.item.active.icon",
+    "component.navigation-bar.item.active.label",
+    "component.navigation-bar.item.default.icon",
+    "component.navigation-bar.item.default.label",
+    "component.progress-bar.fill.brand",
+    "component.progress-bar.fill.success",
+    "component.progress-bar.height",
+    "component.progress-bar.radius",
+    "component.progress-bar.track.bg",
+    "component.radio.border.default",
+    "component.radio.border.focus",
+    "component.radio.dot.default",
+    "component.radio.dot.disabled",
+    "component.radio.dot.selected",
+    "component.skeleton.bg.base",
+    "component.skeleton.bg.highlight",
+    "component.spinner.fill.color",
+    "component.spinner.track.color",
+    "component.steps.active.bg",
+    "component.steps.active.label",
+    "component.steps.completed.bg",
+    "component.steps.completed.icon",
+    "component.steps.inactive.bg",
+    "component.steps.inactive.label",
+    "component.tooltip.bg",
+    "component.tooltip.label",
+    "component.tooltip.padding",
+    "component.tooltip.radius"
+  ],
+  "groupedMissing": {
+    "component.button": [
+      "component.button.primary-inverse.bg.default",
+      "component.button.primary-inverse.bg.disabled",
+      "component.button.primary-inverse.bg.focus",
+      "component.button.primary-inverse.bg.hover",
+      "component.button.primary-inverse.bg.loading",
+      "component.button.primary-inverse.bg.pressed",
+      "component.button.primary-inverse.border.focus",
+      "component.button.primary-inverse.label.default",
+      "component.button.primary-inverse.label.disabled",
+      "component.button.primary-inverse.label.focus",
+      "component.button.primary-inverse.label.hover",
+      "component.button.primary-inverse.label.loading",
+      "component.button.primary-inverse.label.pressed",
+      "component.button.secondary-inverse.bg.disabled",
+      "component.button.secondary-inverse.bg.focus",
+      "component.button.secondary-inverse.bg.hover",
+      "component.button.secondary-inverse.bg.loading",
+      "component.button.secondary-inverse.bg.pressed",
+      "component.button.secondary-inverse.border.default",
+      "component.button.secondary-inverse.border.focus",
+      "component.button.secondary-inverse.label.default",
+      "component.button.secondary-inverse.label.disabled",
+      "component.button.secondary-inverse.label.focus",
+      "component.button.secondary-inverse.label.hover",
+      "component.button.secondary-inverse.label.loading",
+      "component.button.secondary-inverse.label.pressed",
+      "component.button.secondary.bg.disabled",
+      "component.button.secondary.bg.focus",
+      "component.button.secondary.bg.loading",
+      "component.button.secondary.border.default",
+      "component.button.secondary.border.focus",
+      "component.button.secondary.label.disabled",
+      "component.button.secondary.label.focus",
+      "component.button.secondary.label.hover",
+      "component.button.secondary.label.loading",
+      "component.button.secondary.label.pressed"
+    ],
+    "component.badge": [
+      "component.badge.blog.bg",
+      "component.badge.blog.fg",
+      "component.badge.disabled.bg",
+      "component.badge.disabled.fg",
+      "component.badge.error.fg",
+      "component.badge.filter-active.bg",
+      "component.badge.filter-active.fg",
+      "component.badge.filter-default.border",
+      "component.badge.filter-default.fg",
+      "component.badge.info.bg",
+      "component.badge.info.fg",
+      "component.badge.neutral-1.bg",
+      "component.badge.neutral-1.fg",
+      "component.badge.neutral-2.bg",
+      "component.badge.neutral-2.fg",
+      "component.badge.neutral-3.bg",
+      "component.badge.neutral-3.fg",
+      "component.badge.premiere.bg",
+      "component.badge.premiere.fg",
+      "component.badge.promo.bg",
+      "component.badge.promo.fg",
+      "component.badge.success.fg",
+      "component.badge.warning.fg"
+    ],
+    "color.text": [
+      "color.text.body",
+      "color.text.cancel",
+      "color.text.danger-pressed",
+      "color.text.dark",
+      "color.text.default",
+      "color.text.helper",
+      "color.text.helper-disabled",
+      "color.text.hover",
+      "color.text.label-disabled",
+      "color.text.label-error",
+      "color.text.negative",
+      "color.text.negative-hover",
+      "color.text.on-dark",
+      "color.text.on-premiere",
+      "color.text.on-promo",
+      "color.text.placeholder-hover",
+      "color.text.prefix",
+      "color.text.prefix-disabled",
+      "color.text.pressed",
+      "color.text.strong",
+      "color.text.value"
+    ],
+    "component.shortcuts-menu": [
+      "component.shortcuts-menu.active.bg",
+      "component.shortcuts-menu.active.border",
+      "component.shortcuts-menu.active.icon",
+      "component.shortcuts-menu.active.label",
+      "component.shortcuts-menu.default.bg",
+      "component.shortcuts-menu.default.border",
+      "component.shortcuts-menu.default.icon-fill",
+      "component.shortcuts-menu.default.icon-stroke",
+      "component.shortcuts-menu.default.label",
+      "component.shortcuts-menu.disabled.icon-stroke",
+      "component.shortcuts-menu.disabled.label",
+      "component.shortcuts-menu.menu.bg",
+      "component.shortcuts-menu.menu.border",
+      "component.shortcuts-menu.menu.icon",
+      "component.shortcuts-menu.menu.icon-accent",
+      "component.shortcuts-menu.menu.icon-bg",
+      "component.shortcuts-menu.menu.label"
+    ],
+    "color.surface": [
+      "color.surface.brand-active",
+      "color.surface.brand-strong",
+      "color.surface.card",
+      "color.surface.dark",
+      "color.surface.disabled",
+      "color.surface.disabled-strong",
+      "color.surface.image-tinted",
+      "color.surface.neutral-light",
+      "color.surface.neutral-muted",
+      "color.surface.overlay-strong",
+      "color.surface.placeholder",
+      "color.surface.premiere",
+      "color.surface.promo",
+      "color.surface.track"
+    ],
+    "component.input": [
+      "component.input.bg.view-only",
+      "component.input.border.focus-width",
+      "component.input.border.hover",
+      "component.input.border.view-only",
+      "component.input.cancel.text",
+      "component.input.helper.disabled",
+      "component.input.icon.default",
+      "component.input.icon.disabled",
+      "component.input.icon.error",
+      "component.input.prefix.default",
+      "component.input.prefix.disabled",
+      "component.input.prefix.error",
+      "component.input.value.error",
+      "component.input.value.hover"
+    ],
+    "component.link": [
+      "component.link.destructive.focus-stroke",
+      "component.link.destructive.text.default",
+      "component.link.destructive.text.disabled",
+      "component.link.destructive.text.hover",
+      "component.link.destructive.text.pressed",
+      "component.link.negative.focus-stroke",
+      "component.link.negative.text.default",
+      "component.link.negative.text.disabled",
+      "component.link.negative.text.hover",
+      "component.link.primary.focus-stroke",
+      "component.link.primary.text.default",
+      "component.link.primary.text.disabled",
+      "component.link.primary.text.hover",
+      "component.link.primary.text.pressed"
+    ],
+    "color.border": [
+      "color.border.accent-secondary",
+      "color.border.active",
+      "color.border.brand-strong",
+      "color.border.card",
+      "color.border.danger-active",
+      "color.border.hover",
+      "color.border.image",
+      "color.border.input",
+      "color.border.input-disabled",
+      "color.border.light"
+    ],
+    "component.benefits-card": [
+      "component.benefits-card.action-bg.disabled",
+      "component.benefits-card.action.default",
+      "component.benefits-card.action.disabled",
+      "component.benefits-card.container-bg.default",
+      "component.benefits-card.image-bg.default",
+      "component.benefits-card.lock-bg.default",
+      "component.benefits-card.logo-border.default",
+      "component.benefits-card.on-dark.default",
+      "component.benefits-card.secondary.default",
+      "component.benefits-card.text.default"
+    ],
+    "color.icon": [
+      "color.icon.brand-strong",
+      "color.icon.brand-tint",
+      "color.icon.dark",
+      "color.icon.loyalty-star",
+      "color.icon.muted",
+      "color.icon.negative",
+      "color.icon.on-brand",
+      "color.icon.on-surface",
+      "color.icon.secondary"
+    ],
+    "component.card-store-item": [
+      "component.card-store-item.image-border.default",
+      "component.card-store-item.image-fill.default",
+      "component.card-store-item.logo-bg.default",
+      "component.card-store-item.logo-border.default",
+      "component.card-store-item.logo-inner-bg.default",
+      "component.card-store-item.logo-inner-border.default",
+      "component.card-store-item.name.default"
+    ],
+    "component.benefits-content-card": [
+      "component.benefits-content-card.border.default",
+      "component.benefits-content-card.icon.outline.default",
+      "component.benefits-content-card.icon.star.default",
+      "component.benefits-content-card.surface.default",
+      "component.benefits-content-card.surface.inner",
+      "component.benefits-content-card.text.default"
+    ],
+    "component.event-card": [
+      "component.event-card.bg.default",
+      "component.event-card.border.default",
+      "component.event-card.date.default",
+      "component.event-card.icon.default",
+      "component.event-card.image-border.default",
+      "component.event-card.title.default"
+    ],
+    "component.bottom-menu": [
+      "component.bottom-menu.background.active",
+      "component.bottom-menu.icon.active",
+      "component.bottom-menu.icon.default",
+      "component.bottom-menu.label.active",
+      "component.bottom-menu.label.default"
+    ],
+    "component.fique-por-dentro-card": [
+      "component.fique-por-dentro-card.bg.default",
+      "component.fique-por-dentro-card.border.default",
+      "component.fique-por-dentro-card.date.default",
+      "component.fique-por-dentro-card.icon.default",
+      "component.fique-por-dentro-card.title.default"
+    ],
+    "component.toolbar": [
+      "component.toolbar.chevron.default",
+      "component.toolbar.icon.default",
+      "component.toolbar.icon.negative",
+      "component.toolbar.label.default",
+      "component.toolbar.label.negative"
+    ],
+    "color.indicator": [
+      "color.indicator.default",
+      "color.indicator.muted",
+      "color.indicator.negative",
+      "color.indicator.negative-muted"
+    ],
+    "component.dotnav": [
+      "component.dotnav.dot.active",
+      "component.dotnav.dot.active-negative",
+      "component.dotnav.dot.inactive",
+      "component.dotnav.dot.inactive-negative"
+    ],
+    "component.notification-icon-group": [
+      "component.notification-icon-group.counter.bg",
+      "component.notification-icon-group.counter.text",
+      "component.notification-icon-group.icon.default",
+      "component.notification-icon-group.layout.hidden"
+    ],
+    "component.section-title": [
+      "component.section-title.link.default",
+      "component.section-title.link.negative",
+      "component.section-title.title.default",
+      "component.section-title.title.negative"
+    ],
+    "component.progress-bar": [
+      "component.progress-bar.fill.disabled",
+      "component.progress-bar.fill.primary",
+      "component.progress-bar.track.default"
+    ],
+    "component.benefits-goals": [
+      "component.benefits-goals.subtitle.default",
+      "component.benefits-goals.title.default"
+    ],
+    "color.interactive": [
+      "color.interactive.secondary.default-invert"
+    ],
+    "component.banner": [
+      "component.banner.bg.default"
+    ],
+    "component.camera": [
+      "component.camera.stroke.default"
+    ],
+    "component.movie-poster": [
+      "component.movie-poster.text.default"
+    ]
+  },
+  "groupedUndocumented": {
+    "component.navigation-bar": [
+      "component.navigation-bar.badge.bg",
+      "component.navigation-bar.badge.label",
+      "component.navigation-bar.bg",
+      "component.navigation-bar.border.top",
+      "component.navigation-bar.height",
+      "component.navigation-bar.icon-size",
+      "component.navigation-bar.item.active.icon",
+      "component.navigation-bar.item.active.label",
+      "component.navigation-bar.item.default.icon",
+      "component.navigation-bar.item.default.label"
+    ],
+    "component.badge": [
+      "component.badge.brand.bg",
+      "component.badge.brand.label",
+      "component.badge.danger.bg",
+      "component.badge.danger.label",
+      "component.badge.error.label",
+      "component.badge.neutral.bg",
+      "component.badge.neutral.label",
+      "component.badge.success.label",
+      "component.badge.warning.label"
+    ],
+    "component.card": [
+      "component.card.bg.default",
+      "component.card.bg.raised",
+      "component.card.border.default",
+      "component.card.border.subtle",
+      "component.card.padding",
+      "component.card.radius",
+      "component.card.title.color"
+    ],
+    "component.checkbox": [
+      "component.checkbox.bg.checked",
+      "component.checkbox.bg.disabled",
+      "component.checkbox.bg.unchecked",
+      "component.checkbox.border.default",
+      "component.checkbox.border.error",
+      "component.checkbox.border.focus",
+      "component.checkbox.checkmark.color"
+    ],
+    "component.steps": [
+      "component.steps.active.bg",
+      "component.steps.active.label",
+      "component.steps.completed.bg",
+      "component.steps.completed.icon",
+      "component.steps.inactive.bg",
+      "component.steps.inactive.label"
+    ],
+    "component.progress-bar": [
+      "component.progress-bar.fill.brand",
+      "component.progress-bar.fill.success",
+      "component.progress-bar.height",
+      "component.progress-bar.radius",
+      "component.progress-bar.track.bg"
+    ],
+    "component.radio": [
+      "component.radio.border.default",
+      "component.radio.border.focus",
+      "component.radio.dot.default",
+      "component.radio.dot.disabled",
+      "component.radio.dot.selected"
+    ],
+    "component.modal": [
+      "component.modal.bg",
+      "component.modal.border.top",
+      "component.modal.radius",
+      "component.modal.title.color"
+    ],
+    "component.tooltip": [
+      "component.tooltip.bg",
+      "component.tooltip.label",
+      "component.tooltip.padding",
+      "component.tooltip.radius"
+    ],
+    "component.bottom-sheet": [
+      "component.bottom-sheet.bg",
+      "component.bottom-sheet.handle.color",
+      "component.bottom-sheet.radius"
+    ],
+    "component.link": [
+      "component.link.color.default",
+      "component.link.color.disabled",
+      "component.link.color.visited"
+    ],
+    "component.skeleton": [
+      "component.skeleton.bg.base",
+      "component.skeleton.bg.highlight"
+    ],
+    "component.spinner": [
+      "component.spinner.fill.color",
+      "component.spinner.track.color"
+    ]
+  },
+  "aliasDraft": {
+    "color.interactive.secondary.default-invert": {
+      "aliasTo": "color.interactive.secondary.default",
+      "confidence": 0.75
+    },
+    "component.badge.error.fg": {
+      "aliasTo": "component.badge.error.bg",
+      "confidence": 0.75
+    },
+    "component.badge.success.fg": {
+      "aliasTo": "component.badge.success.bg",
+      "confidence": 0.75
+    },
+    "component.badge.warning.fg": {
+      "aliasTo": "component.badge.warning.bg",
+      "confidence": 0.75
+    },
+    "component.button.secondary.bg.disabled": {
+      "aliasTo": "component.button.secondary.bg.default",
+      "confidence": 0.8
+    },
+    "component.button.secondary.bg.focus": {
+      "aliasTo": "component.button.secondary.bg.default",
+      "confidence": 0.8
+    },
+    "component.button.secondary.bg.loading": {
+      "aliasTo": "component.button.secondary.bg.default",
+      "confidence": 0.8
+    },
+    "component.button.secondary.border.default": {
+      "aliasTo": "component.button.secondary.bg.default",
+      "confidence": 0.72
+    },
+    "component.button.secondary.label.disabled": {
+      "aliasTo": "component.button.secondary.label.default",
+      "confidence": 0.8
+    },
+    "component.button.secondary.label.focus": {
+      "aliasTo": "component.button.secondary.label.default",
+      "confidence": 0.8
+    },
+    "component.button.secondary.label.hover": {
+      "aliasTo": "component.button.secondary.label.default",
+      "confidence": 0.8
+    },
+    "component.button.secondary.label.loading": {
+      "aliasTo": "component.button.secondary.label.default",
+      "confidence": 0.8
+    },
+    "component.button.secondary.label.pressed": {
+      "aliasTo": "component.button.secondary.label.default",
+      "confidence": 0.8
+    },
+    "component.input.bg.view-only": {
+      "aliasTo": "component.input.bg.default",
+      "confidence": 0.75
+    },
+    "component.input.border.focus-width": {
+      "aliasTo": "component.input.border.default",
+      "confidence": 0.75
+    },
+    "component.input.border.hover": {
+      "aliasTo": "component.input.border.default",
+      "confidence": 0.75
+    },
+    "component.input.border.view-only": {
+      "aliasTo": "component.input.border.default",
+      "confidence": 0.75
+    },
+    "component.input.helper.disabled": {
+      "aliasTo": "component.input.helper.default",
+      "confidence": 0.75
+    },
+    "component.input.value.error": {
+      "aliasTo": "component.input.value.default",
+      "confidence": 0.75
+    },
+    "component.input.value.hover": {
+      "aliasTo": "component.input.value.default",
+      "confidence": 0.75
+    },
+    "component.progress-bar.fill.disabled": {
+      "aliasTo": "component.progress-bar.fill.brand",
+      "confidence": 0.75
+    },
+    "component.progress-bar.fill.primary": {
+      "aliasTo": "component.progress-bar.fill.brand",
+      "confidence": 0.75
+    },
+    "component.progress-bar.track.default": {
+      "aliasTo": "component.progress-bar.track.bg",
+      "confidence": 0.75
+    }
+  }
+}

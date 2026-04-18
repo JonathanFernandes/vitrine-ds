@@ -1,0 +1,90 @@
+{
+  "component": {
+    "card-store-item": {
+      "image-border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do placeholder de imagem da loja.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.image}"
+        }
+      },
+      "image-fill": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Placeholder tintado da imagem da loja.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.image-tinted}"
+        }
+      },
+      "logo-bg": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do container do logo da loja.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.card}"
+        }
+      },
+      "logo-border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do container do logo da loja.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.default}"
+        }
+      },
+      "logo-inner-bg": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo escuro interno do logo da loja.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.dark}"
+        }
+      },
+      "logo-inner-border": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda clara interna do logo sobre fundo escuro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.light}"
+        }
+      },
+      "name": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do nome da loja no card store item.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.default}"
+        }
+      }
+    }
+  }
+}

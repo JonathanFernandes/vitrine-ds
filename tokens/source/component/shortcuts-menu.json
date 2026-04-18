@@ -1,0 +1,184 @@
+{
+  "component": {
+    "shortcuts-menu": {
+      "active": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do shortcut menu ativo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.brand-strong}"
+        },
+        "border": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do shortcut menu ativo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.brand-strong}"
+        },
+        "icon": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Icone do shortcut menu ativo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.on-brand}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label do shortcut menu ativo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.on-dark}"
+        }
+      },
+      "default": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo default do shortcut menu category.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        },
+        "border": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda default do shortcut menu category.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.subtle}"
+        },
+        "icon-fill": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fill do icone default do shortcut menu.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.on-surface}"
+        },
+        "icon-stroke": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Stroke do icone default do shortcut menu.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.brand-strong}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label default do shortcut menu category.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.strong}"
+        }
+      },
+      "disabled": {
+        "icon-stroke": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Stroke do icone disabled do shortcut menu.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.disabled}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label disabled do shortcut menu.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.disabled}"
+        }
+      },
+      "menu": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do shortcut menu tipo menu.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.default}"
+        },
+        "border": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do shortcut menu tipo menu.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.card}"
+        },
+        "icon": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Icone principal do shortcut menu tipo menu.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.brand-strong}"
+        },
+        "icon-accent": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Icone accent do shortcut menu tipo menu.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.secondary}"
+        },
+        "icon-bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do icone no shortcut menu tipo menu.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.default}"
+        },
+        "label": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label do shortcut menu tipo menu.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.brand-strong}"
+        }
+      }
+    }
+  }
+}

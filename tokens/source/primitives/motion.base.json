@@ -1,0 +1,80 @@
+{
+  "motion": {
+    "duration": {
+      "fast": {
+        "$description": "Transição rápida (200ms). Uso: tooltips, highlights, hover states.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 200
+      },
+      "instant": {
+        "$description": "Transição instantânea (100ms). Uso: feedback imediato, toggles, ripple.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 100
+      },
+      "normal": {
+        "$description": "Transição normal (300ms). Uso: modais, bottom sheets, navegação padrão.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 300
+      },
+      "slow": {
+        "$description": "Transição lenta (500ms). Uso: onboarding, loaders de entrada, reveal de conteúdo.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 500
+      },
+      "slower": {
+        "$description": "Transição muito lenta (700ms). Uso: animações de hero, splash screen, celebrações.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": 700
+      }
+    },
+    "easing": {
+      "accelerate": {
+        "$description": "Aceleração progressiva. Uso: elementos saindo da tela.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "string",
+        "$value": "cubic-bezier(0.4, 0.0, 1, 1)"
+      },
+      "decelerate": {
+        "$description": "Desaceleração suave. Uso: elementos entrando na tela vindo de fora.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "string",
+        "$value": "cubic-bezier(0.0, 0.0, 0.2, 1)"
+      },
+      "spring": {
+        "$description": "Curva mola física. Uso: gestos de arrasto, confirmações, micro-interações lúdicas.",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "string",
+        "$value": "spring(1, 100, 10, 0)"
+      },
+      "standard": {
+        "$description": "Curva padrão Material Design. Uso: maioria das transições de UI (entrar e sair).",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "string",
+        "$value": "cubic-bezier(0.4, 0.0, 0.2, 1)"
+      }
+    }
+  }
+}

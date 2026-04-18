@@ -1,0 +1,565 @@
+{
+  "color": {
+    "ambient": {
+      "base": {
+        "dark": {
+          "$description": "Fundo de superfícies escuras. Uso: dark containers.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#1a1a1a"
+        },
+        "deep-dark": {
+          "$description": "Preto puro. Uso: fundos máximos de dark mode.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "deep-light": {
+          "$description": "Branco puro. Uso: fundo principal de telas e cards.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "light": {
+          "$codeSyntax": {
+            "WEB": "Base/Base White"
+          },
+          "$description": "Fundo de superfícies levemente off-white. Uso: backgrounds alternativos.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#fafafa"
+        }
+      },
+      "grayscales": {
+        "10": {
+          "$description": "Cinza muito claro. Uso: fundos sutis, superfícies alternativas.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#f2f2f2"
+        },
+        "20": {
+          "$description": "Cinza claro. Uso: bordas padrão, divisores.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#e6e6e6"
+        },
+        "30": {
+          "$description": "Cinza suave. Uso: bordas desabilitadas, texto disabled.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#cccccc"
+        },
+        "40": {
+          "$description": "Cinza médio-claro. Uso: bordas com ênfase.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#b3b3b3"
+        },
+        "50": {
+          "$description": "Cinza médio. Ratio sobre branco: 2.85:1. ⚠️ Falha WCAG AA para texto normal. Uso: placeholders, dicas (hint text), texto desabilitado. NÃO usar para texto de conteúdo principal.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#999999"
+        },
+        "60": {
+          "$description": "Cinza neutro. ⚠️ Verificar contraste antes de usar como texto.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#808080"
+        },
+        "70": {
+          "$description": "Cinza médio-escuro. Uso: subtítulos, labels secundários.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#666666"
+        },
+        "80": {
+          "$description": "Cinza escuro. Uso: ícones padrão, texto secundário.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#4d4d4d"
+        },
+        "90": {
+          "$description": "Cinza muito escuro. Uso: texto em destaque.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#333333"
+        },
+        "100": {
+          "$description": "Quase preto. Uso: texto principal e títulos.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#1a1a1a"
+        }
+      },
+      "grayscales-opacity": {
+        "10": {
+          "$description": "Preto com 10% de opacidade. Uso: hover sutil.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "rgba(26, 26, 26, 0.1)"
+        },
+        "20": {
+          "$description": "Preto com 25% de opacidade. Uso: pressed states.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "rgba(26, 26, 26, 0.25)"
+        },
+        "30": {
+          "$description": "Preto com 50% de opacidade. Uso: overlays suaves.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "rgba(26, 26, 26, 0.5)"
+        },
+        "40": {
+          "$description": "Preto com 75% de opacidade. Uso: overlay de modal, bottom sheet.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "rgba(26, 26, 26, 0.75)"
+        },
+        "50": {
+          "$description": "Preto com 90% de opacidade. Uso: overlay escuro.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "rgba(26, 26, 26, 0.9)"
+        }
+      },
+      "neutral": {
+        "10": {
+          "$description": "Tint 10 da cor primária do tema. Uso: fundos de destaque sutis.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#f0f2f4"
+        },
+        "20": {
+          "$description": "Tint 20 da cor primária do tema.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#e2e4e9"
+        },
+        "30": {
+          "$description": "Tint 30 da cor primária do tema.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#c4c9d4"
+        },
+        "40": {
+          "$description": "Tint 40 da cor primária do tema.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#a7afbe"
+        },
+        "50": {
+          "$description": "Tint 50 da cor primária do tema. Tom médio da paleta.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#8994a9"
+        },
+        "60": {
+          "$description": "Tint 60 da cor primária do tema. ⚠️ WCAG sobre branco: Neutral 4.38:1, Leblon 3.18:1, Red ✅ 4.5:1, Green 3.45:1. Uso seguro apenas para texto GRANDE (18px+ regular ou 14px+ bold) ou como ícone/decoração.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#6c7993"
+        },
+        "70": {
+          "$description": "Tint 70 da cor primária do tema.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#566176"
+        },
+        "80": {
+          "$description": "Tint 80 da cor primária do tema.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#414958"
+        },
+        "90": {
+          "$description": "Tint 90 da cor primária do tema.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#2b303b"
+        },
+        "100": {
+          "$description": "Tom mais escuro da paleta neutra do tema.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#16181d"
+        }
+      },
+      "neutral-opacity": {
+        "10": {
+          "$description": "Cor neutra do tema com 10% opacidade.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "rgba(115, 127, 140, 0.1)"
+        },
+        "20": {
+          "$description": "Cor neutra do tema com 25% opacidade.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "rgba(115, 127, 140, 0.25)"
+        },
+        "30": {
+          "$description": "Cor neutra do tema com 50% opacidade.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "rgba(115, 127, 140, 0.5)"
+        },
+        "40": {
+          "$description": "Cor neutra do tema com 75% opacidade.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "rgba(115, 127, 140, 0.75)"
+        },
+        "50": {
+          "$description": "Cor neutra do tema com 90% opacidade.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "rgba(115, 127, 140, 0.9)"
+        }
+      }
+    },
+    "feedback": {
+      "error": {
+        "action": {
+          "$description": "Erro pressed. Uso: texto de mensagem de erro (WCAG AA ✅ 8.5:1 sobre branco).",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#861313"
+        },
+        "active": {
+          "$description": "Erro ativo. Uso: estado selecionado em contexto de erro.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#ec7979"
+        },
+        "dark": {
+          "$description": "Erro escuro. Uso: texto de erro sobre backgrounds claros.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#2d0606"
+        },
+        "default": {
+          "$description": "Erro padrão. Uso: ícones de erro, borders de input com erro.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#df2020"
+        },
+        "light": {
+          "$description": "Erro claro. Uso: background de banners de erro.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#f9d2d2"
+        }
+      },
+      "info": {
+        "action": {
+          "$description": "Info com alto contraste — para texto. WCAG sobre branco: ✅ 5.74:1 (AA). SEMPRE usar este para texto informativo, nunca /Default.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#006699"
+        },
+        "active": {
+          "$description": "Info ativo.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#66ccff"
+        },
+        "dark": {
+          "$description": "Info escuro.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#002131"
+        },
+        "default": {
+          "$description": "⚠️ APENAS ícones e backgrounds. NUNCA usar como cor de texto — ratio 2.56:1 sobre branco (FALHA WCAG AA). Para texto informativo: usar Info/Action (#006699) — ratio ✅ 5.74:1.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#00aaff"
+        },
+        "light": {
+          "$description": "Info claro. Uso: background de banners informativos.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#cbeeff"
+        }
+      },
+      "success": {
+        "action": {
+          "$description": "Sucesso com alto contraste — para texto. WCAG sobre branco: ✅ 7.2:1 (AAA). SEMPRE usar este para texto de sucesso, nunca /Default.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#1f7a1f"
+        },
+        "active": {
+          "$description": "Sucesso ativo.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#85e085"
+        },
+        "dark": {
+          "$description": "Sucesso escuro. Uso: texto de sucesso sobre backgrounds claros.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#0a290a"
+        },
+        "default": {
+          "$description": "⚠️ APENAS ícones e backgrounds. NUNCA usar como cor de texto — ratio 2.14:1 sobre branco (FALHA WCAG AA). Para texto de sucesso: usar Success/Action (#1F7A1F) — ratio ✅ 7.2:1 (AAA).",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#33cc33"
+        },
+        "light": {
+          "$description": "Sucesso claro. Uso: background de banners de sucesso.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#d6f5d6"
+        }
+      },
+      "warning": {
+        "action": {
+          "$description": "Aviso com alto contraste — para texto. WCAG sobre branco: ✅ 5.74:1 (AA). SEMPRE usar este para texto de aviso, nunca /Default.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#916000"
+        },
+        "active": {
+          "$description": "Aviso ativo.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#ffc963"
+        },
+        "dark": {
+          "$description": "Aviso escuro.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#312000"
+        },
+        "default": {
+          "$description": "⚠️ APENAS ícones e backgrounds. NUNCA usar como cor de texto — ratio 1.93:1 sobre branco (FALHA WCAG AA). Para texto de aviso: usar Warning/Action (#916000) — ratio 5.74:1 ✅.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#ffa800"
+        },
+        "light": {
+          "$description": "Aviso claro. Uso: background de banners de aviso.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#ffedcb"
+        }
+      }
+    },
+    "function": {
+      "primary": {
+        "action": {
+          "$description": "Cor primária pressionada — versão escura, alto contraste. WCAG sobre branco: Neutral ✅ 8.5:1 (AAA), Leblon ✅ 7.2:1 (AAA), Red ✅ 14:1 (AAA), Green ✅ 10:1 (AAA). Uso: texto de links, botão ghost text, estados hover/pressed.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#1b3c7e"
+        },
+        "active": {
+          "$description": "Cor primária ativa/selecionada. Uso: estados active e selected.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#81a2e4"
+        },
+        "dark": {
+          "$description": "Versão escura da cor primária. Uso: texto sobre fundos claros, dark mode.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#09142a"
+        },
+        "default": {
+          "$description": "Cor primária da marca — varia por tema. ⚠️ WCAG sobre branco: Neutral 4.47:1 (AA Large), Leblon 3.24:1 (AA Large), Red ✅ 6.2:1, Green ✅ 5.3:1. Uso: ícones, bordas, fundos de marca. Para TEXTO pequeno usar /Action.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#4274d6"
+        },
+        "light": {
+          "$description": "Versão clara da cor primária. Uso: backgrounds de chips, badges.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#d5e0f6"
+        }
+      },
+      "secondary": {
+        "action": {
+          "$description": "Cor secundária pressionada. Uso: estados pressed.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#0f4e57"
+        },
+        "active": {
+          "$description": "Cor secundária ativa/selecionada.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#94cad1"
+        },
+        "dark": {
+          "$description": "Versão escura da cor secundária.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#08272b"
+        },
+        "default": {
+          "$description": "Cor secundária da marca. Varia por tema.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#1b8998"
+        },
+        "light": {
+          "$description": "Versão clara da cor secundária. Uso: backgrounds de chips secundários.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#dbedf0"
+        }
+      },
+      "specific": {
+        "whatsapp": {
+          "$description": "Verde oficial do WhatsApp. Uso: botão/ícone de contato via WhatsApp.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#118c7e"
+        },
+        "yellow-star": {
+          "$description": "Amarelo de estrela de avaliação. Uso: componentes de rating e favoritos.",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "#edc41e"
+        }
+      }
+    }
+  }
+}

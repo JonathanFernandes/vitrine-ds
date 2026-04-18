@@ -1,0 +1,190 @@
+{
+  "component": {
+    "link": {
+      "color": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do link padrão. Cor brand do tema (varia por marca).",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.brand}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do link desabilitado. Cinza 30.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.disabled}"
+        },
+        "visited": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Cor do link visitado. Brand ligeiramente mais escuro.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.icon.brand}"
+        }
+      },
+      "destructive": {
+        "focus-stroke": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Stroke de foco para link destrutivo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.danger-active}"
+        },
+        "text": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link destrutivo em estado padrao.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.danger}"
+          },
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link destrutivo em disabled.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.label-disabled}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link destrutivo em hover.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.hover}"
+          },
+          "pressed": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link destrutivo em pressed.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.danger-pressed}"
+          }
+        }
+      },
+      "negative": {
+        "focus-stroke": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Stroke de foco para link negativo.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.active}"
+        },
+        "text": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link negativo em estado padrao.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.negative}"
+          },
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link negativo em disabled.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.disabled}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link negativo em hover.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.negative-hover}"
+          }
+        }
+      },
+      "primary": {
+        "focus-stroke": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Stroke de foco para link primario.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.active}"
+        },
+        "text": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link primario em estado padrao.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.brand-strong}"
+          },
+          "disabled": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link primario em disabled.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.label-disabled}"
+          },
+          "hover": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link primario em hover.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.hover}"
+          },
+          "pressed": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Texto ou icone do link primario em pressed.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.text.pressed}"
+          }
+        }
+      }
+    }
+  }
+}

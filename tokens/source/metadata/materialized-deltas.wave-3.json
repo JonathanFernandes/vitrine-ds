@@ -1,0 +1,40 @@
+{
+  "wave": "wave-3",
+  "scope": [
+    "section-title",
+    "benefits-card",
+    "benefits-content-card",
+    "toolbar",
+    "color.border",
+    "color.icon",
+    "color.surface"
+  ],
+  "semanticTokensMaterialized": [
+    "color.border.accent-secondary",
+    "color.border.image",
+    "color.border.light",
+    "color.icon.brand-tint",
+    "color.icon.dark",
+    "color.icon.loyalty-star",
+    "color.icon.muted",
+    "color.icon.negative",
+    "color.surface.overlay-strong"
+  ],
+  "componentTokensMaterialized": {
+    "section-title": 4,
+    "benefits-card": 10,
+    "benefits-content-card": 6,
+    "toolbar": 5
+  },
+  "promotedAliasesRemoved": [
+    "color.icon.muted"
+  ],
+  "outputFiles": [
+    "tokens/source/semantic/color.json",
+    "tokens/source/component/section-title.json",
+    "tokens/source/component/benefits-card.json",
+    "tokens/source/component/benefits-content-card.json",
+    "tokens/source/component/toolbar.json",
+    "tokens/source/metadata/design-doc-aliases.reviewed.json"
+  ]
+}

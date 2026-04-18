@@ -1,0 +1,52 @@
+{
+  "elevation": {
+    "lg": {
+      "$description": "Sombra grande. Uso: menus flutuantes, dropdowns, FABs.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "string",
+      "$value": "0 8px 24px rgba(0,0,0,0.16)"
+    },
+    "md": {
+      "$description": "Sombra média. Uso: cards interativos, bottom sheets parciais.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "string",
+      "$value": "0 4px 16px rgba(0,0,0,0.12)"
+    },
+    "none": {
+      "$description": "Sem sombra. Uso: superfícies planas, fundos e divisores.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "string",
+      "$value": "none"
+    },
+    "sm": {
+      "$description": "Sombra pequena. Uso: botões elevados, chips selecionados.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "string",
+      "$value": "0 2px 8px rgba(0,0,0,0.10)"
+    },
+    "xl": {
+      "$description": "Sombra extra-grande. Uso: modais, bottom sheets totais, dialogs.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "string",
+      "$value": "0 16px 40px rgba(0,0,0,0.20)"
+    },
+    "xs": {
+      "$description": "Sombra mínima. Uso: cards em repouso, itens de lista.",
+      "$scopes": [
+        "ALL_SCOPES"
+      ],
+      "$type": "string",
+      "$value": "0 1px 2px rgba(0,0,0,0.08)"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "component": {
+    "progress-bar": {
+      "fill": {
+        "brand": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Preenchimento do progress bar brand. Cor brand do tema.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.brand}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Preenchimento da barra inativa do progress bar.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.disabled}"
+        },
+        "primary": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Preenchimento ativo do progress bar primary.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.brand}"
+        },
+        "success": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Preenchimento do progress bar de sucesso/conclusão.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.feedback.success.default}"
+        }
+      },
+      "height": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Altura da barra de progresso (8px). Compacto e discreto.",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{spacing.padding.positive.2xs}"
+      },
+      "radius": {
+        "$collectionName": "Primitive tokens",
+        "$description": "Border radius do progress bar (999px). Totalmente arredondado (pill).",
+        "$libraryName": "",
+        "$scopes": [
+          "ALL_SCOPES"
+        ],
+        "$type": "float",
+        "$value": "{border.radius.round}"
+      },
+      "track": {
+        "bg": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo da trilha do progress bar. Cinza 10.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.subtle}"
+        },
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo da trilha do progress bar.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.track}"
+        }
+      }
+    }
+  }
+}

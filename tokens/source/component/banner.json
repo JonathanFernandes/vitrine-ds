@@ -1,0 +1,18 @@
+{
+  "component": {
+    "banner": {
+      "bg": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Fundo do container do banner.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.surface.card}"
+        }
+      }
+    }
+  }
+}
