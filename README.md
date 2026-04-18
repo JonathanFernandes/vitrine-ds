@@ -2,6 +2,24 @@
 
 Repositório dedicado para a fonte de verdade do Design System da Vitrine.
 
+O root do repositório também expõe a biblioteca React Native para consumo direto via GitHub.
+
+## Instalação
+
+```json
+{
+  "dependencies": {
+    "@vitrine-ds/react-native": "github:JonathanFernandes/vitrine-ds"
+  }
+}
+```
+
+Import principal:
+
+```ts
+import { ThemeProvider, Button, HeaderHome } from '@vitrine-ds/react-native';
+```
+
 O objetivo deste repositório é separar claramente:
 
 - `tokens/`: definição e distribuição de design tokens
