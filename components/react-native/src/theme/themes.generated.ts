@@ -1432,7 +1432,7 @@ export const buttonTokens: Record<ThemeName, ButtonThemeTokens> = {
         "focus": "#4274d6"
       },
       "label": {
-        "default": "#ffffff",
+        "default": "#0f4e57",
         "focus": "#ffffff",
         "pressed": "#ffffff",
         "loading": "#ffffff",
@@ -1521,7 +1521,7 @@ export const buttonTokens: Record<ThemeName, ButtonThemeTokens> = {
         "focus": "#bf8240"
       },
       "label": {
-        "default": "#ffffff",
+        "default": "#39604c",
         "focus": "#ffffff",
         "pressed": "#ffffff",
         "loading": "#ffffff",
@@ -1610,7 +1610,7 @@ export const buttonTokens: Record<ThemeName, ButtonThemeTokens> = {
         "focus": "#b11b2f"
       },
       "label": {
-        "default": "#ffffff",
+        "default": "#684531",
         "focus": "#ffffff",
         "pressed": "#ffffff",
         "loading": "#ffffff",
@@ -1699,7 +1699,7 @@ export const buttonTokens: Record<ThemeName, ButtonThemeTokens> = {
         "focus": "#367d4d"
       },
       "label": {
-        "default": "#ffffff",
+        "default": "#26736c",
         "focus": "#ffffff",
         "pressed": "#ffffff",
         "loading": "#ffffff",

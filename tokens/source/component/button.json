@@ -401,13 +401,13 @@
         "label": {
           "default": {
             "$collectionName": "Semantic Tokens",
-            "$description": "Label do botão secundário. Sempre branco sobre cor brand secundária.",
+            "$description": "Label do botão secundário no estado padrão. Usa a variante escura da cor secundária sobre fundo claro.",
             "$libraryName": "",
             "$scopes": [
               "ALL_SCOPES"
             ],
             "$type": "color",
-            "$value": "{color.interactive.secondary.text}"
+            "$value": "{color.interactive.secondary.default-invert}"
           },
           "disabled": {
             "$collectionName": "Semantic Tokens",
