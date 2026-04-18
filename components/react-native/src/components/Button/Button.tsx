@@ -283,6 +283,14 @@ export function Button({
     busy: loading,
   };
 
+  function renderIcon(icon: React.ReactNode, color: string) {
+    if (!React.isValidElement(icon)) {
+      return icon;
+    }
+
+    return React.cloneElement(icon as React.ReactElement<{ color?: string }>, { color });
+  }
+
   return (
     <Pressable
       onPress={isInteractionDisabled ? undefined : onPress}
@@ -315,7 +323,7 @@ export function Button({
                   size === 'small' && styles.iconSmall,
                 ]}
               >
-                {iconLeft}
+                {renderIcon(iconLeft, labelColor)}
               </View>
             )}
 
@@ -350,7 +358,7 @@ export function Button({
                   size === 'small' && styles.iconSmall,
                 ]}
               >
-                {iconRight}
+                {renderIcon(iconRight, labelColor)}
               </View>
             )}
           </View>
