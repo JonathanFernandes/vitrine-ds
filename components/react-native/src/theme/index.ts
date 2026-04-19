@@ -1,5 +1,6 @@
 export { ThemeProvider, useTheme } from './ThemeContext';
 export type {
+  AvatarThemeTokens,
   ThemeName,
   ButtonThemeTokens,
   BottomMenuThemeTokens,

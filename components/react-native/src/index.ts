@@ -1,5 +1,6 @@
 export { ThemeProvider, useTheme } from './theme';
 export type {
+  AvatarThemeTokens,
   ThemeName,
   ButtonThemeTokens,
   BottomMenuThemeTokens,
@@ -25,6 +26,9 @@ export type {
   ShortcutsThemeTokens,
   ToolbarThemeTokens,
 } from './theme';
+
+export { Avatar } from './components/Avatar';
+export type { AvatarProps, AvatarSize } from './components/Avatar';
 
 export { Badge } from './components/Badge';
 export type {

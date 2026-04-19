@@ -6,6 +6,8 @@ import {
 } from '@expo-google-fonts/be-vietnam-pro';
 import React, { createContext, useContext, useState } from 'react';
 import {
+  avatarTokens,
+  AvatarThemeTokens,
   badgeTokens,
   BadgeThemeTokens,
   carouselStoreTokens,
@@ -58,6 +60,7 @@ import {
 interface ThemeContextValue {
   themeName: ThemeName;
   setTheme: (name: ThemeName) => void;
+  avatar: AvatarThemeTokens;
   button: ButtonThemeTokens;
   bottomMenu: BottomMenuThemeTokens;
   benefitsCardVertical: BenefitsCardVerticalThemeTokens;
@@ -87,6 +90,7 @@ interface ThemeContextValue {
 const ThemeContext = createContext<ThemeContextValue>({
   themeName: 'neutral',
   setTheme: () => {},
+  avatar: avatarTokens.neutral,
   button: buttonTokens.neutral,
   bottomMenu: bottomMenuTokens.neutral,
   benefitsCardVertical: benefitsCardVerticalTokens.neutral,
@@ -140,6 +144,7 @@ export function ThemeProvider({
       value={{
         themeName,
         setTheme,
+        avatar: avatarTokens[themeName],
         button: buttonTokens[themeName],
         bottomMenu: bottomMenuTokens[themeName],
         benefitsCardVertical: benefitsCardVerticalTokens[themeName],

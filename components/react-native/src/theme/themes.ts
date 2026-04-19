@@ -195,6 +195,19 @@ export interface BadgeThemeTokens {
   disabled: BadgeThemeStatusTokens;
 }
 
+export interface AvatarThemeTokens {
+  radius: number;
+  bg: {
+    default: string;
+  };
+  border: {
+    default: string;
+  };
+  label: {
+    default: string;
+  };
+}
+
 export interface LinkThemeTokens {
   primary: {
     text: {
@@ -363,6 +376,34 @@ export interface CameraThemeTokens {
   strokeWidth: number;
   defaultSize: number;
 }
+
+// Local fallback until Avatar tokens are included in the generated theme payload.
+export const avatarTokens: Record<ThemeName, AvatarThemeTokens> = {
+  neutral: {
+    radius: 999,
+    bg: { default: '#F0F2F4' },
+    border: { default: '#C4C9D4' },
+    label: { default: '#1A1A1A' },
+  },
+  leblon: {
+    radius: 999,
+    bg: { default: '#F0F2F4' },
+    border: { default: '#C4C9D4' },
+    label: { default: '#1A1A1A' },
+  },
+  red: {
+    radius: 999,
+    bg: { default: '#F0F2F4' },
+    border: { default: '#C4C9D4' },
+    label: { default: '#1A1A1A' },
+  },
+  green: {
+    radius: 999,
+    bg: { default: '#F0F2F4' },
+    border: { default: '#C4C9D4' },
+    label: { default: '#1A1A1A' },
+  },
+};
 
 export {
   bottomMenuTokens,
