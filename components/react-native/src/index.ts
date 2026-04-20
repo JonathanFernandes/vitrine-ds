@@ -2,12 +2,14 @@ export { ThemeProvider, useTheme } from './theme';
 export type {
   AvatarThemeTokens,
   ThemeName,
+  BottomSheetThemeTokens,
   ButtonThemeTokens,
   BottomMenuThemeTokens,
   BenefitsCardVerticalThemeTokens,
   BadgeThemeTokens,
   BannerThemeTokens,
   BenefitsContentCardThemeTokens,
+  CardOptionsThemeTokens,
   CardStoreItemThemeTokens,
   CarouselStoreThemeTokens,
   CameraThemeTokens,
@@ -18,9 +20,12 @@ export type {
   BenefitsGoalsThemeTokens,
   InputThemeTokens,
   LinkThemeTokens,
+  ModalMobileThemeTokens,
+  MenuItemThemeTokens,
   MoviePosterThemeTokens,
   NotificationIconGroupThemeTokens,
   ProgressBarThemeTokens,
+  RadioIconThemeTokens,
   SectionTitleThemeTokens,
   ShortcutsMenuThemeTokens,
   ShortcutsThemeTokens,
@@ -48,6 +53,16 @@ export type {
 
 export { BenefitsContentCard } from './components/BenefitsContentCard';
 export type { BenefitsContentCardProps } from './components/BenefitsContentCard';
+
+export { BottomSheet } from './components/BottomSheet';
+export type {
+  BottomSheetBenefitItem,
+  BottomSheetProps,
+  BottomSheetType,
+} from './components/BottomSheet';
+
+export { CardOptions } from './components/CardOptions';
+export type { CardOptionsProps, CardOptionsState } from './components/CardOptions';
 
 export { CardStoreItem } from './components/CardStoreItem';
 export type { CardStoreItemProps } from './components/CardStoreItem';
@@ -80,6 +95,12 @@ export type {
   ProgressBarSize,
 } from './components/ProgressBar';
 
+export { RadioIcon } from './components/RadioIcon';
+export type {
+  RadioIconProps,
+  RadioIconVisualState,
+} from './components/RadioIcon';
+
 export { BenefitsGoals } from './components/BenefitsGoals';
 export type {
   BenefitsGoalsProps,
@@ -97,8 +118,17 @@ export type {
   LinkVariant,
 } from './components/Link';
 
+export { ModalMobile } from './components/ModalMobile';
+export type {
+  ModalMobileProps,
+  ModalMobileType,
+} from './components/ModalMobile';
+
 export { MoviePoster } from './components/MoviePoster';
 export type { MoviePosterProps } from './components/MoviePoster';
+
+export { MenuItem } from './components/MenuItem';
+export type { MenuItemProps, MenuItemStyle } from './components/MenuItem';
 
 export { NotificationIconGroup } from './components/NotificationIconGroup';
 export type {

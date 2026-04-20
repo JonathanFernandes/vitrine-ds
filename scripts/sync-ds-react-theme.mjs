@@ -280,6 +280,21 @@ const moviePosterTokens = mapByTheme((themeName) => ({
   text: readColor(themeName, 'component.movie-poster.text.default'),
 }));
 
+const menuItemTokens = mapByTheme((themeName) => ({
+  default: {
+    icon: readColor(themeName, 'component.menu-item.icon.leading.default'),
+    text: readColor(themeName, 'component.menu-item.text.default'),
+    chevron: readColor(themeName, 'component.menu-item.chevron.default'),
+    divider: readColor(themeName, 'component.menu-item.divider.default'),
+  },
+  negative: {
+    icon: readColor(themeName, 'component.menu-item.icon.leading.negative'),
+    text: readColor(themeName, 'component.menu-item.text.negative'),
+    chevron: readColor(themeName, 'component.menu-item.chevron.negative'),
+    divider: readColor(themeName, 'component.menu-item.divider.negative'),
+  },
+}));
+
 const shortcutsMenuTokens = mapByTheme((themeName) => ({
   radius: readNumber(themeName, 'border.radius.xs'),
   active: {
@@ -520,6 +535,7 @@ const generatedExports = [
   ['badgeTokens', 'BadgeThemeTokens', badgeTokens],
   ['linkTokens', 'LinkThemeTokens', linkTokens],
   ['moviePosterTokens', 'MoviePosterThemeTokens', moviePosterTokens],
+  ['menuItemTokens', 'MenuItemThemeTokens', menuItemTokens],
   ['shortcutsMenuTokens', 'ShortcutsMenuThemeTokens', shortcutsMenuTokens],
   ['shortcutsTokens', 'ShortcutsThemeTokens', shortcutsTokens],
   ['notificationIconGroupTokens', 'NotificationIconGroupThemeTokens', notificationIconGroupTokens],
@@ -552,6 +568,7 @@ import type {
   BadgeThemeTokens,
   LinkThemeTokens,
   MoviePosterThemeTokens,
+  MenuItemThemeTokens,
   ShortcutsMenuThemeTokens,
   ShortcutsThemeTokens,
   NotificationIconGroupThemeTokens,
@@ -802,6 +819,21 @@ export interface MoviePosterThemeTokens {
   text: string;
 }
 
+export interface MenuItemThemeTokens {
+  default: {
+    icon: string;
+    text: string;
+    chevron: string;
+    divider: string;
+  };
+  negative: {
+    icon: string;
+    text: string;
+    chevron: string;
+    divider: string;
+  };
+}
+
 export interface ShortcutsMenuThemeTokens {
   radius: number;
   active: {
@@ -952,6 +984,7 @@ export {
   badgeTokens,
   linkTokens,
   moviePosterTokens,
+  menuItemTokens,
   shortcutsMenuTokens,
   shortcutsTokens,
   notificationIconGroupTokens,

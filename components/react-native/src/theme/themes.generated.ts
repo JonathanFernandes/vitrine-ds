@@ -19,6 +19,7 @@ import type {
   BadgeThemeTokens,
   LinkThemeTokens,
   MoviePosterThemeTokens,
+  MenuItemThemeTokens,
   ShortcutsMenuThemeTokens,
   ShortcutsThemeTokens,
   NotificationIconGroupThemeTokens,
@@ -849,6 +850,65 @@ export const moviePosterTokens: Record<ThemeName, MoviePosterThemeTokens> = {
   "green": {
     "radius": 4,
     "text": "#fafafa"
+  }
+};
+
+export const menuItemTokens: Record<ThemeName, MenuItemThemeTokens> = {
+  "neutral": {
+    "default": {
+      "icon": "#1b3c7e",
+      "text": "#414958",
+      "chevron": "#414958",
+      "divider": "#e2e4e9"
+    },
+    "negative": {
+      "icon": "#d5e0f6",
+      "text": "#fafafa",
+      "chevron": "#fafafa",
+      "divider": "#999999"
+    }
+  },
+  "leblon": {
+    "default": {
+      "icon": "#734e26",
+      "text": "#5c573d",
+      "chevron": "#5c573d",
+      "divider": "#edebe3"
+    },
+    "negative": {
+      "icon": "#f2e6d9",
+      "text": "#fafafa",
+      "chevron": "#fafafa",
+      "divider": "#999999"
+    }
+  },
+  "red": {
+    "default": {
+      "icon": "#590d18",
+      "text": "#732631",
+      "chevron": "#732631",
+      "divider": "#f3dde0"
+    },
+    "negative": {
+      "icon": "#f2a6b1",
+      "text": "#fafafa",
+      "chevron": "#fafafa",
+      "divider": "#999999"
+    }
+  },
+  "green": {
+    "default": {
+      "icon": "#265937",
+      "text": "#415849",
+      "chevron": "#415849",
+      "divider": "#e2e9e4"
+    },
+    "negative": {
+      "icon": "#dbf0e2",
+      "text": "#fafafa",
+      "chevron": "#fafafa",
+      "divider": "#999999"
+    }
   }
 };
 

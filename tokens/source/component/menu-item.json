@@ -1,0 +1,96 @@
+{
+  "component": {
+    "menu-item": {
+      "chevron": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Chevron trailing do menu item default.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.body}"
+        },
+        "negative": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Chevron trailing do menu item negative.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.on-dark}"
+        }
+      },
+      "divider": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Divisor inferior do menu item default.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.card}"
+        },
+        "negative": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Divisor inferior do menu item negative.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.border.input}"
+        }
+      },
+      "icon": {
+        "leading": {
+          "default": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Icone leading do menu item default.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.icon.brand-strong}"
+          },
+          "negative": {
+            "$collectionName": "Semantic Tokens",
+            "$description": "Icone leading do menu item negative.",
+            "$libraryName": "",
+            "$scopes": [
+              "ALL_SCOPES"
+            ],
+            "$type": "color",
+            "$value": "{color.icon.negative}"
+          }
+        }
+      },
+      "text": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do menu item default.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.body}"
+        },
+        "negative": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Texto do menu item negative.",
+          "$libraryName": "",
+          "$scopes": [
+            "ALL_SCOPES"
+          ],
+          "$type": "color",
+          "$value": "{color.text.on-dark}"
+        }
+      }
+    }
+  }
+}

@@ -8,14 +8,22 @@ import React, { createContext, useContext, useState } from 'react';
 import {
   avatarTokens,
   AvatarThemeTokens,
+  bottomSheetTokens,
+  BottomSheetThemeTokens,
   badgeTokens,
   BadgeThemeTokens,
+  cardOptionsTokens,
+  CardOptionsThemeTokens,
   carouselStoreTokens,
   CarouselStoreThemeTokens,
   headerHomeTokens,
   HeaderHomeThemeTokens,
   linkTokens,
   LinkThemeTokens,
+  modalMobileTokens,
+  ModalMobileThemeTokens,
+  menuItemTokens,
+  MenuItemThemeTokens,
   moviePosterTokens,
   MoviePosterThemeTokens,
   eventCardTokens,
@@ -54,6 +62,8 @@ import {
   CameraThemeTokens,
   progressBarTokens,
   ProgressBarThemeTokens,
+  radioIconTokens,
+  RadioIconThemeTokens,
   ThemeName,
 } from './themes';
 
@@ -61,8 +71,10 @@ interface ThemeContextValue {
   themeName: ThemeName;
   setTheme: (name: ThemeName) => void;
   avatar: AvatarThemeTokens;
+  bottomSheet: BottomSheetThemeTokens;
   button: ButtonThemeTokens;
   bottomMenu: BottomMenuThemeTokens;
+  cardOptions: CardOptionsThemeTokens;
   benefitsCardVertical: BenefitsCardVerticalThemeTokens;
   benefitsGoals: BenefitsGoalsThemeTokens;
   benefitsContentCard: BenefitsContentCardThemeTokens;
@@ -74,6 +86,8 @@ interface ThemeContextValue {
   sectionTitle: SectionTitleThemeTokens;
   badge: BadgeThemeTokens;
   link: LinkThemeTokens;
+  modalMobile: ModalMobileThemeTokens;
+  menuItem: MenuItemThemeTokens;
   moviePoster: MoviePosterThemeTokens;
   eventCard: EventCardThemeTokens;
   fiquePorDentroCard: FiquePorDentroCardThemeTokens;
@@ -84,6 +98,7 @@ interface ThemeContextValue {
   input: InputThemeTokens;
   camera: CameraThemeTokens;
   progressBar: ProgressBarThemeTokens;
+  radioIcon: RadioIconThemeTokens;
   fontsLoaded: boolean;
 }
 
@@ -91,8 +106,10 @@ const ThemeContext = createContext<ThemeContextValue>({
   themeName: 'neutral',
   setTheme: () => {},
   avatar: avatarTokens.neutral,
+  bottomSheet: bottomSheetTokens.neutral,
   button: buttonTokens.neutral,
   bottomMenu: bottomMenuTokens.neutral,
+  cardOptions: cardOptionsTokens.neutral,
   benefitsCardVertical: benefitsCardVerticalTokens.neutral,
   benefitsGoals: benefitsGoalsTokens.neutral,
   benefitsContentCard: benefitsContentCardTokens.neutral,
@@ -104,6 +121,8 @@ const ThemeContext = createContext<ThemeContextValue>({
   sectionTitle: sectionTitleTokens.neutral,
   badge: badgeTokens.neutral,
   link: linkTokens.neutral,
+  modalMobile: modalMobileTokens.neutral,
+  menuItem: menuItemTokens.neutral,
   moviePoster: moviePosterTokens.neutral,
   eventCard: eventCardTokens.neutral,
   fiquePorDentroCard: fiquePorDentroCardTokens.neutral,
@@ -114,6 +133,7 @@ const ThemeContext = createContext<ThemeContextValue>({
   input: inputTokens.neutral,
   camera: cameraTokens.neutral,
   progressBar: progressBarTokens.neutral,
+  radioIcon: radioIconTokens.neutral,
   fontsLoaded: false,
 });
 
@@ -145,8 +165,10 @@ export function ThemeProvider({
         themeName,
         setTheme,
         avatar: avatarTokens[themeName],
+        bottomSheet: bottomSheetTokens[themeName],
         button: buttonTokens[themeName],
         bottomMenu: bottomMenuTokens[themeName],
+        cardOptions: cardOptionsTokens[themeName],
         benefitsCardVertical: benefitsCardVerticalTokens[themeName],
         benefitsGoals: benefitsGoalsTokens[themeName],
         benefitsContentCard: benefitsContentCardTokens[themeName],
@@ -158,6 +180,8 @@ export function ThemeProvider({
         sectionTitle: sectionTitleTokens[themeName],
         badge: badgeTokens[themeName],
         link: linkTokens[themeName],
+        modalMobile: modalMobileTokens[themeName],
+        menuItem: menuItemTokens[themeName],
         moviePoster: moviePosterTokens[themeName],
         eventCard: eventCardTokens[themeName],
         fiquePorDentroCard: fiquePorDentroCardTokens[themeName],
@@ -168,6 +192,7 @@ export function ThemeProvider({
         input: inputTokens[themeName],
         camera: cameraTokens[themeName],
         progressBar: progressBarTokens[themeName],
+        radioIcon: radioIconTokens[themeName],
         fontsLoaded,
       }}
     >
