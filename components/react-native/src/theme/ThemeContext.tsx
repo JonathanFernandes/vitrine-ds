@@ -46,6 +46,12 @@ import {
   BenefitsContentCardThemeTokens,
   benefitsCardVerticalTokens,
   BenefitsCardVerticalThemeTokens,
+  benefitsCardHorizontalTokens,
+  BenefitsCardHorizontalThemeTokens,
+  accordionTokens,
+  AccordionThemeTokens,
+  benefitsLevelsTokens,
+  BenefitsLevelsThemeTokens,
   bottomMenuTokens,
   BottomMenuThemeTokens,
   buttonTokens,
@@ -76,6 +82,9 @@ interface ThemeContextValue {
   bottomMenu: BottomMenuThemeTokens;
   cardOptions: CardOptionsThemeTokens;
   benefitsCardVertical: BenefitsCardVerticalThemeTokens;
+  benefitsCardHorizontal: BenefitsCardHorizontalThemeTokens;
+  accordion: AccordionThemeTokens;
+  benefitsLevels: BenefitsLevelsThemeTokens;
   benefitsGoals: BenefitsGoalsThemeTokens;
   benefitsContentCard: BenefitsContentCardThemeTokens;
   dotnav: DotnavThemeTokens;
@@ -111,6 +120,9 @@ const ThemeContext = createContext<ThemeContextValue>({
   bottomMenu: bottomMenuTokens.neutral,
   cardOptions: cardOptionsTokens.neutral,
   benefitsCardVertical: benefitsCardVerticalTokens.neutral,
+  benefitsCardHorizontal: benefitsCardHorizontalTokens.neutral,
+  accordion: accordionTokens.neutral,
+  benefitsLevels: benefitsLevelsTokens.neutral,
   benefitsGoals: benefitsGoalsTokens.neutral,
   benefitsContentCard: benefitsContentCardTokens.neutral,
   dotnav: dotnavTokens.neutral,
@@ -170,6 +182,9 @@ export function ThemeProvider({
         bottomMenu: bottomMenuTokens[themeName],
         cardOptions: cardOptionsTokens[themeName],
         benefitsCardVertical: benefitsCardVerticalTokens[themeName],
+        benefitsCardHorizontal: benefitsCardHorizontalTokens[themeName],
+        accordion: accordionTokens[themeName],
+        benefitsLevels: benefitsLevelsTokens[themeName],
         benefitsGoals: benefitsGoalsTokens[themeName],
         benefitsContentCard: benefitsContentCardTokens[themeName],
         dotnav: dotnavTokens[themeName],

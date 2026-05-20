@@ -7,6 +7,9 @@ export type SvgAssetIconName =
   | 'calendar'
   | 'cinema'
   | 'estrela-loyalt'
+  | 'estrela-loyalt-1'
+  | 'estrela-loyalt-2'
+  | 'estrela-loyalt-3'
   | 'invoice-history'
   | 'parking'
   | 'qr-code-nav'
@@ -27,6 +30,9 @@ const SVG_ASSET_MODULES: Record<SvgAssetIconName, number> = {
   calendar: require('../../Icons/calendar.svg'),
   cinema: require('../../Icons/cinema.svg'),
   'estrela-loyalt': require('../../Icons/estrela-loyalt.svg'),
+  'estrela-loyalt-1': require('../../Icons/estrela-loyalt-1.svg'),
+  'estrela-loyalt-2': require('../../Icons/estrela-loyalt-2.svg'),
+  'estrela-loyalt-3': require('../../Icons/estrela-loyalt-3.svg'),
   'invoice-history': require('../../Icons/invoice-history.svg'),
   parking: require('../../Icons/parking.svg'),
   'qr-code-nav': require('../../Icons/qr-code-nav.svg'),
@@ -42,6 +48,9 @@ const SVG_ASSET_URIS: Record<SvgAssetIconName, string> = {
   calendar: Asset.fromModule(SVG_ASSET_MODULES.calendar).uri,
   cinema: Asset.fromModule(SVG_ASSET_MODULES.cinema).uri,
   'estrela-loyalt': Asset.fromModule(SVG_ASSET_MODULES['estrela-loyalt']).uri,
+  'estrela-loyalt-1': Asset.fromModule(SVG_ASSET_MODULES['estrela-loyalt-1']).uri,
+  'estrela-loyalt-2': Asset.fromModule(SVG_ASSET_MODULES['estrela-loyalt-2']).uri,
+  'estrela-loyalt-3': Asset.fromModule(SVG_ASSET_MODULES['estrela-loyalt-3']).uri,
   'invoice-history': Asset.fromModule(SVG_ASSET_MODULES['invoice-history']).uri,
   parking: Asset.fromModule(SVG_ASSET_MODULES.parking).uri,
   'qr-code-nav': Asset.fromModule(SVG_ASSET_MODULES['qr-code-nav']).uri,

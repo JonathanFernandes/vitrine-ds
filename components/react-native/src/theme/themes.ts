@@ -86,6 +86,88 @@ export interface BenefitsCardVerticalThemeTokens {
   };
 }
 
+/** Horizontal benefits card — Figma `7810:5098` (tokens alinhados à spec em `specs/component-spec/benefits-card-horizontal.md`). */
+export interface BenefitsCardHorizontalThemeTokens {
+  rootRadius: number;
+  columnGap: number;
+  brandingBg: string;
+  /** Estado bloqueado: máscara atrás do logo (fill no Figma usa token de borda do card vertical). */
+  brandingMaskBg: string;
+  storeLogoBg: string;
+  logoBorder: string;
+  logoBorderWidth: number;
+  cardSurface: string;
+  secondary: string;
+  text: string;
+  lockBadgeBg: string;
+  onDark: string;
+  actionActive: string;
+  actionDisabled: string;
+  actionDisabledBg: string;
+  contentGap: number;
+  textStackGap: number;
+  categoryRowGap: number;
+  titleBlockGap: number;
+}
+
+/** Benefits Levels — Figma `7935:14175` (spec `specs/component-spec/benefits-levels.md`). */
+export interface BenefitsLevelsThemeTokens {
+  width: number;
+  radius: number;
+  borderWidth: number;
+  surface: string;
+  border: string;
+  heading: string;
+  description: string;
+  benefitTitle: string;
+  benefitCaption: string;
+  benefitTextDisabled: string;
+  iconCheck: string;
+  iconCloseDisabled: string;
+  iconStar: string;
+  badgeBg: string;
+  badgeLabel: string;
+  spacing: {
+    padding: number;
+    sectionGap: number;
+    headerBlockGap: number;
+    headerRowGap: number;
+    titleStackGap: number;
+    benefitRowGap: number;
+    benefitTextGap: number;
+    starRowGap: number;
+    badgePaddingH: number;
+    badgePaddingV: number;
+    badgeHeight: number;
+  };
+  sizes: {
+    star: number;
+    rowIcon: number;
+  };
+}
+
+/** Accordion — Figma `7922:5670` (spec `specs/component-spec/accordion.md`). */
+export interface AccordionThemeTokens {
+  width: number;
+  title: { default: string; negative: string };
+  icon: { default: string; negative: string };
+  subtitle: { default: string; negative: string };
+  badge: {
+    bg: { default: string; negative: string };
+    number: { default: string; negative: string };
+  };
+  spacing: {
+    headerPaddingH: number;
+    headerContentGap: number;
+    simplePaddingH: number;
+    listRowGap: number;
+    listItemGap: number;
+    badgePadding: number;
+    badgeSize: number;
+    badgeRadius: number;
+  };
+}
+
 export interface ProgressBarThemeTokens {
   track: string;
   fill: {
@@ -510,13 +592,97 @@ export const avatarTokens: Record<ThemeName, AvatarThemeTokens> = {
 
 const primaryByTheme: Record<
   ThemeName,
-  { default: string; action: string; focus: string }
+  { default: string; action: string; focus: string; light: string }
 > = {
-  neutral: { default: '#4274D6', action: '#1B3C7E', focus: '#4274D6' },
-  leblon: { default: '#D9B48C', action: '#734E26', focus: '#D9B48C' },
-  red: { default: '#E44E62', action: '#590D18', focus: '#E44E62' },
-  green: { default: '#94D1A8', action: '#265937', focus: '#94D1A8' },
+  neutral: {
+    default: '#4274D6',
+    action: '#1B3C7E',
+    focus: '#4274D6',
+    light: '#D5E0F6',
+  },
+  leblon: {
+    default: '#D9B48C',
+    action: '#734E26',
+    focus: '#D9B48C',
+    light: '#F2E6D9',
+  },
+  red: {
+    default: '#E44E62',
+    action: '#590D18',
+    focus: '#E44E62',
+    light: '#F2A6B1',
+  },
+  green: {
+    default: '#94D1A8',
+    action: '#265937',
+    focus: '#94D1A8',
+    light: '#DBF0E2',
+  },
 };
+
+function createBenefitsLevelsTokens(themeName: ThemeName): BenefitsLevelsThemeTokens {
+  const primary = primaryByTheme[themeName];
+
+  return {
+    width: 303,
+    radius: 4,
+    borderWidth: 1,
+    surface: '#FAFAFA',
+    border: '#E6E6E6',
+    heading: '#414958',
+    description: '#414958',
+    benefitTitle: '#414958',
+    benefitCaption: '#414958',
+    benefitTextDisabled: '#999999',
+    iconCheck: primary.action,
+    iconCloseDisabled: '#999999',
+    iconStar: '#EDC41E',
+    badgeBg: '#A7AFBE',
+    badgeLabel: '#09142A',
+    spacing: {
+      padding: 24,
+      sectionGap: 24,
+      headerBlockGap: 16,
+      headerRowGap: 8,
+      titleStackGap: 8,
+      benefitRowGap: 12,
+      benefitTextGap: 4,
+      starRowGap: 8,
+      badgePaddingH: 16,
+      badgePaddingV: 8,
+      badgeHeight: 24,
+    },
+    sizes: {
+      star: 32,
+      rowIcon: 24,
+    },
+  };
+}
+
+function createAccordionTokens(themeName: ThemeName): AccordionThemeTokens {
+  const primary = primaryByTheme[themeName];
+
+  return {
+    width: 343,
+    title: { default: '#1A1A1A', negative: '#FAFAFA' },
+    icon: { default: '#1A1A1A', negative: '#FAFAFA' },
+    subtitle: { default: '#1A1A1A', negative: '#FAFAFA' },
+    badge: {
+      bg: { default: '#1A1A1A', negative: '#FAFAFA' },
+      number: { default: primary.light, negative: primary.action },
+    },
+    spacing: {
+      headerPaddingH: 8,
+      headerContentGap: 20,
+      simplePaddingH: 16,
+      listRowGap: 12,
+      listItemGap: 12,
+      badgePadding: 4,
+      badgeSize: 24,
+      badgeRadius: 999,
+    },
+  };
+}
 
 function createRadioIconTokens(themeName: ThemeName): RadioIconThemeTokens {
   const primary = primaryByTheme[themeName];
@@ -622,6 +788,107 @@ export const radioIconTokens: Record<ThemeName, RadioIconThemeTokens> = {
   leblon: createRadioIconTokens('leblon'),
   red: createRadioIconTokens('red'),
   green: createRadioIconTokens('green'),
+};
+
+export const benefitsLevelsTokens: Record<ThemeName, BenefitsLevelsThemeTokens> = {
+  neutral: createBenefitsLevelsTokens('neutral'),
+  leblon: createBenefitsLevelsTokens('leblon'),
+  red: createBenefitsLevelsTokens('red'),
+  green: createBenefitsLevelsTokens('green'),
+};
+
+export const accordionTokens: Record<ThemeName, AccordionThemeTokens> = {
+  neutral: createAccordionTokens('neutral'),
+  leblon: createAccordionTokens('leblon'),
+  red: createAccordionTokens('red'),
+  green: createAccordionTokens('green'),
+};
+
+export const benefitsCardHorizontalTokens: Record<ThemeName, BenefitsCardHorizontalThemeTokens> = {
+  neutral: {
+    rootRadius: 4,
+    columnGap: 16,
+    brandingBg: '#4274d6',
+    brandingMaskBg: '#e6e6e6',
+    storeLogoBg: '#016435',
+    logoBorder: '#e6e6e6',
+    logoBorderWidth: 2,
+    cardSurface: '#ffffff',
+    secondary: '#666666',
+    text: '#2b303b',
+    lockBadgeBg: 'rgba(26, 26, 26, 0.9)',
+    onDark: '#fafafa',
+    actionActive: '#0f4e57',
+    actionDisabled: '#b3b3b3',
+    actionDisabledBg: '#f2f2f2',
+    contentGap: 12,
+    textStackGap: 8,
+    categoryRowGap: 4,
+    titleBlockGap: 4,
+  },
+  leblon: {
+    rootRadius: 4,
+    columnGap: 16,
+    brandingBg: '#bf8240',
+    brandingMaskBg: '#e6e6e6',
+    storeLogoBg: '#016435',
+    logoBorder: '#e6e6e6',
+    logoBorderWidth: 2,
+    cardSurface: '#ffffff',
+    secondary: '#666666',
+    text: '#3d3a29',
+    lockBadgeBg: 'rgba(26, 26, 26, 0.9)',
+    onDark: '#fafafa',
+    actionActive: '#39604c',
+    actionDisabled: '#b3b3b3',
+    actionDisabledBg: '#f2f2f2',
+    contentGap: 12,
+    textStackGap: 8,
+    categoryRowGap: 4,
+    titleBlockGap: 4,
+  },
+  red: {
+    rootRadius: 4,
+    columnGap: 16,
+    brandingBg: '#b11b2f',
+    brandingMaskBg: '#e6e6e6',
+    storeLogoBg: '#016435',
+    logoBorder: '#e6e6e6',
+    logoBorderWidth: 2,
+    cardSurface: '#ffffff',
+    secondary: '#666666',
+    text: '#4d1a20',
+    lockBadgeBg: 'rgba(26, 26, 26, 0.9)',
+    onDark: '#fafafa',
+    actionActive: '#684531',
+    actionDisabled: '#b3b3b3',
+    actionDisabledBg: '#f2f2f2',
+    contentGap: 12,
+    textStackGap: 8,
+    categoryRowGap: 4,
+    titleBlockGap: 4,
+  },
+  green: {
+    rootRadius: 4,
+    columnGap: 16,
+    brandingBg: '#367d4d',
+    brandingMaskBg: '#e6e6e6',
+    storeLogoBg: '#016435',
+    logoBorder: '#e6e6e6',
+    logoBorderWidth: 2,
+    cardSurface: '#ffffff',
+    secondary: '#666666',
+    text: '#2b3b30',
+    lockBadgeBg: 'rgba(26, 26, 26, 0.9)',
+    onDark: '#fafafa',
+    actionActive: '#26736c',
+    actionDisabled: '#b3b3b3',
+    actionDisabledBg: '#f2f2f2',
+    contentGap: 12,
+    textStackGap: 8,
+    categoryRowGap: 4,
+    titleBlockGap: 4,
+  },
 };
 
 export const cardOptionsTokens: Record<ThemeName, CardOptionsThemeTokens> = {

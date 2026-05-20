@@ -6,6 +6,9 @@ export type {
   ButtonThemeTokens,
   BottomMenuThemeTokens,
   BenefitsCardVerticalThemeTokens,
+  BenefitsCardHorizontalThemeTokens,
+  AccordionThemeTokens,
+  BenefitsLevelsThemeTokens,
   BadgeThemeTokens,
   BannerThemeTokens,
   BenefitsContentCardThemeTokens,
@@ -50,6 +53,27 @@ export type {
   BenefitsCardVerticalAction,
   BenefitsCardVerticalProps,
 } from './components/BenefitsCardVertical';
+
+export { BenefitsCardHorizontal } from './components/BenefitsCardHorizontal';
+export type {
+  BenefitsCardHorizontalProps,
+  BenefitsCardHorizontalStatus,
+} from './components/BenefitsCardHorizontal';
+
+export { Accordion } from './components/Accordion';
+export type {
+  AccordionAction,
+  AccordionListItem,
+  AccordionProps,
+  AccordionType,
+} from './components/Accordion';
+
+export { BenefitsLevels } from './components/BenefitsLevels';
+export type {
+  BenefitsLevel,
+  BenefitsLevelItem,
+  BenefitsLevelsProps,
+} from './components/BenefitsLevels';
 
 export { BenefitsContentCard } from './components/BenefitsContentCard';
 export type { BenefitsContentCardProps } from './components/BenefitsContentCard';
