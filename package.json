@@ -1,6 +1,6 @@
 {
   "name": "@vitrine-ds/react-native",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Biblioteca React Native do Design System da Vitrine, consumível direto do GitHub.",
   "license": "UNLICENSED",
   "main": "./index.ts",
@@ -38,7 +38,7 @@
     "tokens:migrate-from-ds-react": "node ./scripts/migrate-tokens-from-ds-react.mjs",
     "tokens:sync-ds-react": "node ./scripts/sync-ds-react-theme.mjs",
     "tokens:validate": "node ./scripts/validate-tokens.mjs",
-    "showcase:start": "echo \"App de showcase ainda nao configurado\"",
+    "showcase:start": "npm --prefix showcase run start",
     "docs:check": "echo \"Checklist de documentacao ainda nao configurado\""
   }
 }

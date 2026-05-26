@@ -13,6 +13,7 @@ export type {
   BannerThemeTokens,
   BenefitsContentCardThemeTokens,
   CardOptionsThemeTokens,
+  StoreCardThemeTokens,
   CardStoreItemThemeTokens,
   CarouselStoreThemeTokens,
   CameraThemeTokens,
@@ -28,6 +29,7 @@ export type {
   MoviePosterThemeTokens,
   NotificationIconGroupThemeTokens,
   ProgressBarThemeTokens,
+  RadioButtonThemeTokens,
   RadioIconThemeTokens,
   SectionTitleThemeTokens,
   ShortcutsMenuThemeTokens,
@@ -88,6 +90,19 @@ export type {
 export { CardOptions } from './components/CardOptions';
 export type { CardOptionsProps, CardOptionsState } from './components/CardOptions';
 
+export { StoreCard, STORE_CARD_ASSETS } from './components/StoreCard';
+export type {
+  StoreCardAction,
+  StoreCardFluxo,
+  StoreCardProps,
+} from './components/StoreCard';
+export {
+  getStoreCardActionIcon,
+  PlaceIcon,
+  resolveStoreCardActionIconKey,
+  StoreCardAssetIcon,
+} from './components/StoreCard';
+
 export { CardStoreItem } from './components/CardStoreItem';
 export type { CardStoreItemProps } from './components/CardStoreItem';
 
@@ -118,6 +133,14 @@ export type {
   ProgressBarProps,
   ProgressBarSize,
 } from './components/ProgressBar';
+
+export { RadioButton, RadioGroup, useRadioGroup } from './components/RadioButton';
+export type {
+  RadioButtonOptionSide,
+  RadioButtonProps,
+  RadioButtonVisualState,
+  RadioGroupProps,
+} from './components/RadioButton';
 
 export { RadioIcon } from './components/RadioIcon';
 export type {

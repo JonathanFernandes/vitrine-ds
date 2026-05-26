@@ -1,0 +1,90 @@
+{
+  "component": {
+    "radio-button": {
+      "label": {
+        "default": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label principal — estado default.",
+          "$libraryName": "",
+          "$scopes": ["ALL_SCOPES"],
+          "$type": "color",
+          "$value": "{color.text.helper}"
+        },
+        "hover": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label — hover (web).",
+          "$libraryName": "",
+          "$scopes": ["ALL_SCOPES"],
+          "$type": "color",
+          "$value": "{color.text.brand-strong}"
+        },
+        "checked": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label — selecionado.",
+          "$libraryName": "",
+          "$scopes": ["ALL_SCOPES"],
+          "$type": "color",
+          "$value": "{color.text.brand-strong}"
+        },
+        "focus": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label — foco (anel vazio).",
+          "$libraryName": "",
+          "$scopes": ["ALL_SCOPES"],
+          "$type": "color",
+          "$value": "{color.text.brand-strong}"
+        },
+        "focus-selected": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label — foco com seleção.",
+          "$libraryName": "",
+          "$scopes": ["ALL_SCOPES"],
+          "$type": "color",
+          "$value": "{color.text.brand-strong}"
+        },
+        "error": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label — erro.",
+          "$libraryName": "",
+          "$scopes": ["ALL_SCOPES"],
+          "$type": "color",
+          "$value": "{color.text.error}"
+        },
+        "disabled": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label — disabled.",
+          "$libraryName": "",
+          "$scopes": ["ALL_SCOPES"],
+          "$type": "color",
+          "$value": "{color.text.tertiary}"
+        },
+        "disabled-checked": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Label — disabled + checked.",
+          "$libraryName": "",
+          "$scopes": ["ALL_SCOPES"],
+          "$type": "color",
+          "$value": "{color.text.disabled}"
+        }
+      },
+      "divider": {
+        "$collectionName": "Semantic Tokens",
+        "$description": "Linha Shape-line entre itens.",
+        "$libraryName": "",
+        "$scopes": ["ALL_SCOPES"],
+        "$type": "color",
+        "$value": "{color.border.default}"
+      },
+      "focus-ring": {
+        "border": {
+          "$collectionName": "Semantic Tokens",
+          "$description": "Borda do wrapper em Focused / Focus-selected.",
+          "$libraryName": "",
+          "$scopes": ["ALL_SCOPES"],
+          "$type": "color",
+          "$value": "{color.border.focus-secondary}"
+        }
+      }
+    }
+  }
+}

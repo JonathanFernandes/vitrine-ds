@@ -474,6 +474,30 @@ export interface CameraThemeTokens {
   defaultSize: number;
 }
 
+/** Radio-button list row — Figma `8041:6995` (spec `specs/component-spec/radio-button.md`). */
+export interface RadioButtonThemeTokens {
+  label: {
+    default: string;
+    brand: string;
+    error: string;
+    disabled: string;
+    disabledChecked: string;
+  };
+  divider: string;
+  focusRing: {
+    border: string;
+    borderWidth: number;
+    radius: number;
+  };
+  spacing: {
+    paddingTop: number;
+    paddingHorizontal: number;
+    columnGap: number;
+    rowGap: number;
+    focusContentPaddingLeft: number;
+  };
+}
+
 export interface RadioIconThemeTokens {
   radius: number;
   bg: {
@@ -514,6 +538,44 @@ export interface CardOptionsThemeTokens {
   };
   title: string;
   subtitle: string;
+}
+
+export interface StoreCardThemeTokens {
+  bg: string;
+  border: string;
+  radius: number;
+  title: string;
+  subtitle: string;
+  avatar: {
+    bg: string;
+    border: string;
+    borderWidth: number;
+    radius: number;
+  };
+  logo: {
+    bg: string;
+    border: string;
+    borderWidth: number;
+    radius: number;
+  };
+  icon: {
+    location: string;
+    locationMuted: string;
+    action: string;
+    whatsapp: string;
+    whatsappMuted: string;
+    whatsappInverse: string;
+  };
+  spacing: {
+    cardPadding: number;
+    cardGap: number;
+    contentGap: number;
+    infoGap: number;
+    contentInnerGap: number;
+    textGap: number;
+    iconGroupGap: number;
+    buttonGap: number;
+  };
 }
 
 export interface BottomSheetThemeTokens {
@@ -684,6 +746,40 @@ function createAccordionTokens(themeName: ThemeName): AccordionThemeTokens {
   };
 }
 
+const focusRingByTheme: Record<ThemeName, string> = {
+  neutral: '#94CAD1',
+  leblon: '#9FC6B2',
+  red: '#CEAB97',
+  green: '#8CD9D2',
+};
+
+function createRadioButtonTokens(themeName: ThemeName): RadioButtonThemeTokens {
+  const primary = primaryByTheme[themeName];
+
+  return {
+    label: {
+      default: '#4D4D4D',
+      brand: primary.action,
+      error: '#DF2020',
+      disabled: '#999999',
+      disabledChecked: '#CCCCCC',
+    },
+    divider: '#E6E6E6',
+    focusRing: {
+      border: focusRingByTheme[themeName],
+      borderWidth: 2,
+      radius: themeName === 'leblon' ? 2 : 4,
+    },
+    spacing: {
+      paddingTop: 16,
+      paddingHorizontal: 4,
+      columnGap: 16,
+      rowGap: 8,
+      focusContentPaddingLeft: 4,
+    },
+  };
+}
+
 function createRadioIconTokens(themeName: ThemeName): RadioIconThemeTokens {
   const primary = primaryByTheme[themeName];
 
@@ -727,6 +823,55 @@ function createCardOptionsTokens(themeName: ThemeName): CardOptionsThemeTokens {
     },
     title: '#333333',
     subtitle: '#808080',
+  };
+}
+
+const secondaryActionByTheme: Record<ThemeName, string> = {
+  neutral: '#0F4E57',
+  leblon: '#39604C',
+  red: '#684531',
+  green: '#26736C',
+};
+
+function createStoreCardTokens(themeName: ThemeName): StoreCardThemeTokens {
+  const primary = primaryByTheme[themeName];
+
+  return {
+    bg: '#FFFFFF',
+    border: '#CCCCCC',
+    radius: 8,
+    title: '#000000',
+    subtitle: '#808080',
+    avatar: {
+      bg: '#016435',
+      border: '#F2F2F2',
+      borderWidth: 2,
+      radius: 4,
+    },
+    logo: {
+      bg: '#000000',
+      border: '#F2F2F2',
+      borderWidth: 1,
+      radius: 4,
+    },
+    icon: {
+      location: primary.action,
+      locationMuted: '#4D4D4D',
+      action: secondaryActionByTheme[themeName],
+      whatsapp: '#33CC33',
+      whatsappMuted: '#999999',
+      whatsappInverse: '#FFFFFF',
+    },
+    spacing: {
+      cardPadding: 16,
+      cardGap: 16,
+      contentGap: 24,
+      infoGap: 12,
+      contentInnerGap: 8,
+      textGap: 4,
+      iconGroupGap: 0,
+      buttonGap: 8,
+    },
   };
 }
 
@@ -783,6 +928,13 @@ function createModalMobileTokens(): ModalMobileThemeTokens {
 }
 
 // Local fallbacks until these component tokens are included in generated theme payload.
+export const radioButtonTokens: Record<ThemeName, RadioButtonThemeTokens> = {
+  neutral: createRadioButtonTokens('neutral'),
+  leblon: createRadioButtonTokens('leblon'),
+  red: createRadioButtonTokens('red'),
+  green: createRadioButtonTokens('green'),
+};
+
 export const radioIconTokens: Record<ThemeName, RadioIconThemeTokens> = {
   neutral: createRadioIconTokens('neutral'),
   leblon: createRadioIconTokens('leblon'),
@@ -896,6 +1048,13 @@ export const cardOptionsTokens: Record<ThemeName, CardOptionsThemeTokens> = {
   leblon: createCardOptionsTokens('leblon'),
   red: createCardOptionsTokens('red'),
   green: createCardOptionsTokens('green'),
+};
+
+export const storeCardTokens: Record<ThemeName, StoreCardThemeTokens> = {
+  neutral: createStoreCardTokens('neutral'),
+  leblon: createStoreCardTokens('leblon'),
+  red: createStoreCardTokens('red'),
+  green: createStoreCardTokens('green'),
 };
 
 export const bottomSheetTokens: Record<ThemeName, BottomSheetThemeTokens> = {

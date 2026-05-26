@@ -31,6 +31,9 @@ do Design System.
 - `MoviePoster`
 - `NotificationIconGroup`
 - `ProgressBar`
+- `RadioButton`
+- `RadioGroup`
+- `RadioIcon`
 - `SectionTitle`
 - `Shortcuts`
 - `ShortcutsMenu`

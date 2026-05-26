@@ -17,7 +17,13 @@ O root do repositório também expõe a biblioteca React Native para consumo dir
 Import principal:
 
 ```ts
-import { ThemeProvider, Button, HeaderHome } from '@vitrine-ds/react-native';
+import {
+  ThemeProvider,
+  Button,
+  HeaderHome,
+  RadioButton,
+  RadioGroup,
+} from '@vitrine-ds/react-native';
 ```
 
 O objetivo deste repositório é separar claramente:

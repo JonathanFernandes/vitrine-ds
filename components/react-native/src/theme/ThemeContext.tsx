@@ -14,6 +14,8 @@ import {
   BadgeThemeTokens,
   cardOptionsTokens,
   CardOptionsThemeTokens,
+  storeCardTokens,
+  StoreCardThemeTokens,
   carouselStoreTokens,
   CarouselStoreThemeTokens,
   headerHomeTokens,
@@ -68,6 +70,8 @@ import {
   CameraThemeTokens,
   progressBarTokens,
   ProgressBarThemeTokens,
+  radioButtonTokens,
+  RadioButtonThemeTokens,
   radioIconTokens,
   RadioIconThemeTokens,
   ThemeName,
@@ -81,6 +85,7 @@ interface ThemeContextValue {
   button: ButtonThemeTokens;
   bottomMenu: BottomMenuThemeTokens;
   cardOptions: CardOptionsThemeTokens;
+  storeCard: StoreCardThemeTokens;
   benefitsCardVertical: BenefitsCardVerticalThemeTokens;
   benefitsCardHorizontal: BenefitsCardHorizontalThemeTokens;
   accordion: AccordionThemeTokens;
@@ -107,6 +112,7 @@ interface ThemeContextValue {
   input: InputThemeTokens;
   camera: CameraThemeTokens;
   progressBar: ProgressBarThemeTokens;
+  radioButton: RadioButtonThemeTokens;
   radioIcon: RadioIconThemeTokens;
   fontsLoaded: boolean;
 }
@@ -119,6 +125,7 @@ const ThemeContext = createContext<ThemeContextValue>({
   button: buttonTokens.neutral,
   bottomMenu: bottomMenuTokens.neutral,
   cardOptions: cardOptionsTokens.neutral,
+  storeCard: storeCardTokens.neutral,
   benefitsCardVertical: benefitsCardVerticalTokens.neutral,
   benefitsCardHorizontal: benefitsCardHorizontalTokens.neutral,
   accordion: accordionTokens.neutral,
@@ -145,6 +152,7 @@ const ThemeContext = createContext<ThemeContextValue>({
   input: inputTokens.neutral,
   camera: cameraTokens.neutral,
   progressBar: progressBarTokens.neutral,
+  radioButton: radioButtonTokens.neutral,
   radioIcon: radioIconTokens.neutral,
   fontsLoaded: false,
 });
@@ -181,6 +189,7 @@ export function ThemeProvider({
         button: buttonTokens[themeName],
         bottomMenu: bottomMenuTokens[themeName],
         cardOptions: cardOptionsTokens[themeName],
+        storeCard: storeCardTokens[themeName],
         benefitsCardVertical: benefitsCardVerticalTokens[themeName],
         benefitsCardHorizontal: benefitsCardHorizontalTokens[themeName],
         accordion: accordionTokens[themeName],
@@ -207,6 +216,7 @@ export function ThemeProvider({
         input: inputTokens[themeName],
         camera: cameraTokens[themeName],
         progressBar: progressBarTokens[themeName],
+        radioButton: radioButtonTokens[themeName],
         radioIcon: radioIconTokens[themeName],
         fontsLoaded,
       }}
