@@ -3,11 +3,11 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
+    "start": "EXPO_OFFLINE=1 expo start",
     "start:offline": "EXPO_OFFLINE=1 expo start --offline",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "EXPO_OFFLINE=1 expo start --android",
+    "ios": "EXPO_OFFLINE=1 expo start --ios",
+    "web": "EXPO_OFFLINE=1 expo start --web --port 8082"
   },
   "dependencies": {
     "@expo-google-fonts/be-vietnam-pro": "^0.2.3",

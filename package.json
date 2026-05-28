@@ -39,6 +39,7 @@
     "tokens:sync-ds-react": "node ./scripts/sync-ds-react-theme.mjs",
     "tokens:validate": "node ./scripts/validate-tokens.mjs",
     "showcase:start": "npm --prefix showcase run start",
+    "showcase:web": "npm --prefix showcase run web",
     "docs:check": "echo \"Checklist de documentacao ainda nao configurado\""
   }
 }
